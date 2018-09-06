@@ -12,7 +12,7 @@ namespace PersonalBlogCore.Controllers
     /// 
     /// </summary>
     [Route("api/[controller]")]
-    [Authorize(Policy="Admin")]
+    //[Authorize(Policy="Admin")]
     public class ValuesController : Controller
     {
         /// <summary>
@@ -40,8 +40,17 @@ namespace PersonalBlogCore.Controllers
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="love"></param>
+        /// <param name="value"></param>
         // POST api/values
+        [HttpPost]
+        [Route("api/[controller]/[action]")]
+        public void Post([FromBody]string value)
+        {
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="love"></param>
         [HttpPost]
         public void Post(Love love)
         {
