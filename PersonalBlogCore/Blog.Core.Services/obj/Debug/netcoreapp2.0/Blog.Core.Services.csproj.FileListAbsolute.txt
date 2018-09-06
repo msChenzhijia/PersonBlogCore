@@ -14,3 +14,6 @@ D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\obj\Debug\netco
 D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\obj\Debug\netcoreapp2.0\Blog.Core.Services.csproj.CopyComplete
 D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\obj\Debug\netcoreapp2.0\Blog.Core.Services.dll
 D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\obj\Debug\netcoreapp2.0\Blog.Core.Services.pdb
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\bin\Debug\netcoreapp2.0\Blog.Core.Model.dll
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\bin\Debug\netcoreapp2.0\Blog.Core.Model.pdb
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\bin\Debug\netcoreapp2.0\Blog.Core.Model.xml

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Blog.Core.IServices;
+using Blog.Core.Model.Models;
 using Blog.Core.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -37,9 +38,10 @@ namespace PersonalBlogCore.Controllers
         /// <param name="id"></param>
         /// <returns></returns>
         [HttpGet("{id}",Name ="Get")]
-        public string Get(int id)
+        public List<Advertisement> Get(int id)
         {
-            return "value";
+            IAdvertisementServices advertisementServices = new AdvertisementServices();
+            return advertisementServices.Query(x => x.Id == id);
         }
         /// <summary>
         /// 

@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "1581bc38ff453485ff36811e869c374636dccb00"
+    "signature": "0077d2c7e19a8ff43c8b0f734da27f1c5d9afa1d"
   },
   "compilationOptions": {
     "defines": [
@@ -2761,6 +2761,14 @@
           "lib/netstandard1.1/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
+      "sqlSugar/4.6.4.9": {
+        "runtime": {
+          "lib/SqlSugar.dll": {}
+        },
+        "compile": {
+          "lib/SqlSugar.dll": {}
+        }
+      },
       "StackExchange.Redis.StrongName/1.2.4": {
         "dependencies": {
           "NETStandard.Library": "2.0.0",
@@ -4116,6 +4124,9 @@
         }
       },
       "Blog.Core.IRepository/1.0.0": {
+        "dependencies": {
+          "Blog.Core.Model": "1.0.0"
+        },
         "runtime": {
           "Blog.Core.IRepository.dll": {}
         },
@@ -4124,6 +4135,9 @@
         }
       },
       "Blog.Core.IServices/1.0.0": {
+        "dependencies": {
+          "Blog.Core.Model": "1.0.0"
+        },
         "runtime": {
           "Blog.Core.IServices.dll": {}
         },
@@ -4141,7 +4155,9 @@
       },
       "Blog.Core.Repository/1.0.0": {
         "dependencies": {
-          "Blog.Core.IRepository": "1.0.0"
+          "Blog.Core.IRepository": "1.0.0",
+          "Blog.Core.Model": "1.0.0",
+          "sqlSugar": "4.6.4.9"
         },
         "runtime": {
           "Blog.Core.Repository.dll": {}
@@ -5767,6 +5783,13 @@
       "sha512": "sha512-Zdug2wETm6847337EtD8MoCAtOdwM6prEXL/UsJ97Zxvoeyk/gUpdtuFNBxgJzceuty0jymjxm5yur5QajdApg==",
       "path": "sqlitepclraw.provider.e_sqlite3.netstandard11/1.1.7",
       "hashPath": "sqlitepclraw.provider.e_sqlite3.netstandard11.1.1.7.nupkg.sha512"
+    },
+    "sqlSugar/4.6.4.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4aJj7oCpKrAKB35ZpMyL8qL3C/zj5v9qWBUNqtBdhJOU49uQmQKLk6rpqEaAQ7k5fdzPxkXXyR6VXsrBtKRV8Q==",
+      "path": "sqlsugar/4.6.4.9",
+      "hashPath": "sqlsugar.4.6.4.9.nupkg.sha512"
     },
     "StackExchange.Redis.StrongName/1.2.4": {
       "type": "package",

@@ -32,17 +32,19 @@ namespace Blog.Core.Repository
         }
         public int Add(Advertisement model)
         {
-            throw new NotImplementedException();
+            var i = db.Insertable(model).ExecuteReturnBigIdentity();
+            return i.ObjToInt();
         }
 
         public bool Delete(Advertisement model)
         {
-            throw new NotImplementedException();
+            var i = db.Deleteable(model).ExecuteCommand();
+            return i > 0;
         }
 
         public List<Advertisement> Query(Expression<Func<Advertisement, bool>> whereExpression)
         {
-            throw new NotImplementedException();
+            return entityDB.GetList(whereExpression);
         }
 
         public int Sum(int i, int j)
@@ -52,7 +54,8 @@ namespace Blog.Core.Repository
 
         public bool Update(Advertisement model)
         {
-            throw new NotImplementedException();
+            var i = db.Updateable(model).ExecuteCommand();
+            return i > 0;
         }
     }
 }

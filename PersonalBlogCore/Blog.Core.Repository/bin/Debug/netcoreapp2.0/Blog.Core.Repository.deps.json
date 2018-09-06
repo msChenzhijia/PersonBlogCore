@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "signature": "19170a2fdf2f8da16dd0bd3b18a88710d5880727"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,10 +9,16 @@
       "Blog.Core.Repository/1.0.0": {
         "dependencies": {
           "Blog.Core.IRepository": "1.0.0",
-          "Blog.Core.Model": "1.0.0"
+          "Blog.Core.Model": "1.0.0",
+          "sqlSugar": "4.6.4.9"
         },
         "runtime": {
           "Blog.Core.Repository.dll": {}
+        }
+      },
+      "sqlSugar/4.6.4.9": {
+        "runtime": {
+          "lib/SqlSugar.dll": {}
         }
       },
       "Blog.Core.IRepository/1.0.0": {
@@ -35,6 +41,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "sqlSugar/4.6.4.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4aJj7oCpKrAKB35ZpMyL8qL3C/zj5v9qWBUNqtBdhJOU49uQmQKLk6rpqEaAQ7k5fdzPxkXXyR6VXsrBtKRV8Q==",
+      "path": "sqlsugar/4.6.4.9",
+      "hashPath": "sqlsugar.4.6.4.9.nupkg.sha512"
     },
     "Blog.Core.IRepository/1.0.0": {
       "type": "project",
