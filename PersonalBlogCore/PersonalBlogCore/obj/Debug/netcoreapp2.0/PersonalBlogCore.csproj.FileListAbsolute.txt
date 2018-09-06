@@ -1,0 +1,12 @@
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\bin\Debug\netcoreapp2.0\PersonalBlogCore.deps.json
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\bin\Debug\netcoreapp2.0\PersonalBlogCore.runtimeconfig.json
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\bin\Debug\netcoreapp2.0\PersonalBlogCore.runtimeconfig.dev.json
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\bin\Debug\netcoreapp2.0\PersonalBlogCore.dll
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\obj\Debug\netcoreapp2.0\PersonalBlogCore.csprojAssemblyReference.cache
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\obj\Debug\netcoreapp2.0\PersonalBlogCore.csproj.CoreCompileInputs.cache
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\obj\Debug\netcoreapp2.0\PersonalBlogCore.AssemblyInfoInputs.cache
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\obj\Debug\netcoreapp2.0\PersonalBlogCore.AssemblyInfo.cs
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\bin\Debug\netcoreapp2.0\PersonalBlogCore.pdb
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\obj\Debug\netcoreapp2.0\PersonalBlogCore.dll
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\obj\Debug\netcoreapp2.0\PersonalBlogCore.pdb
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\bin\Debug\netcoreapp2.0\PersonalBlogCore.xml
