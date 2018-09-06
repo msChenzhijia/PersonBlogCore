@@ -1,0 +1,9 @@
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.IRepository\bin\Debug\netcoreapp2.0\Blog.Core.IRepository.deps.json
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.IRepository\bin\Debug\netcoreapp2.0\Blog.Core.IRepository.dll
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.IRepository\bin\Debug\netcoreapp2.0\Blog.Core.IRepository.pdb
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.IRepository\obj\Debug\netcoreapp2.0\Blog.Core.IRepository.csprojAssemblyReference.cache
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.IRepository\obj\Debug\netcoreapp2.0\Blog.Core.IRepository.csproj.CoreCompileInputs.cache
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.IRepository\obj\Debug\netcoreapp2.0\Blog.Core.IRepository.AssemblyInfoInputs.cache
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.IRepository\obj\Debug\netcoreapp2.0\Blog.Core.IRepository.AssemblyInfo.cs
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.IRepository\obj\Debug\netcoreapp2.0\Blog.Core.IRepository.dll
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.IRepository\obj\Debug\netcoreapp2.0\Blog.Core.IRepository.pdb

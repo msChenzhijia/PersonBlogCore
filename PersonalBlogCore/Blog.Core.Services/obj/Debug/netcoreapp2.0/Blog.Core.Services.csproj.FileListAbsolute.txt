@@ -1,0 +1,16 @@
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\bin\Debug\netcoreapp2.0\Blog.Core.Services.deps.json
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\bin\Debug\netcoreapp2.0\Blog.Core.Services.dll
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\bin\Debug\netcoreapp2.0\Blog.Core.Services.pdb
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\bin\Debug\netcoreapp2.0\Blog.Core.IRepository.dll
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\bin\Debug\netcoreapp2.0\Blog.Core.IServices.dll
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\bin\Debug\netcoreapp2.0\Blog.Core.Repository.dll
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\bin\Debug\netcoreapp2.0\Blog.Core.IRepository.pdb
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\bin\Debug\netcoreapp2.0\Blog.Core.IServices.pdb
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\bin\Debug\netcoreapp2.0\Blog.Core.Repository.pdb
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\obj\Debug\netcoreapp2.0\Blog.Core.Services.csprojAssemblyReference.cache
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\obj\Debug\netcoreapp2.0\Blog.Core.Services.csproj.CoreCompileInputs.cache
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\obj\Debug\netcoreapp2.0\Blog.Core.Services.AssemblyInfoInputs.cache
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\obj\Debug\netcoreapp2.0\Blog.Core.Services.AssemblyInfo.cs
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\obj\Debug\netcoreapp2.0\Blog.Core.Services.csproj.CopyComplete
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\obj\Debug\netcoreapp2.0\Blog.Core.Services.dll
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\obj\Debug\netcoreapp2.0\Blog.Core.Services.pdb

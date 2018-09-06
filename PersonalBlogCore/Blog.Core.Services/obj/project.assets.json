@@ -196,6 +196,63 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "sqlSugar/4.6.4.9": {
+        "type": "package",
+        "compile": {
+          "lib/SqlSugar.dll": {}
+        },
+        "runtime": {
+          "lib/SqlSugar.dll": {}
+        }
+      },
+      "Blog.Core.IRepository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "Blog.Core.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Blog.Core.IRepository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Blog.Core.IRepository.dll": {}
+        }
+      },
+      "Blog.Core.IServices/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Blog.Core.IServices.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Blog.Core.IServices.dll": {}
+        }
+      },
+      "Blog.Core.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Blog.Core.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Blog.Core.Model.dll": {}
+        }
+      },
+      "Blog.Core.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "Blog.Core.IRepository": "1.0.0",
+          "Blog.Core.Model": "1.0.0",
+          "sqlSugar": "4.6.4.9"
+        },
+        "compile": {
+          "bin/placeholder/Blog.Core.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Blog.Core.Repository.dll": {}
+        }
       }
     }
   },
@@ -656,10 +713,43 @@
         "netstandard.library.2.0.0.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "sqlSugar/4.6.4.9": {
+      "sha512": "4aJj7oCpKrAKB35ZpMyL8qL3C/zj5v9qWBUNqtBdhJOU49uQmQKLk6rpqEaAQ7k5fdzPxkXXyR6VXsrBtKRV8Q==",
+      "type": "package",
+      "path": "sqlsugar/4.6.4.9",
+      "files": [
+        "lib/SqlSugar.dll",
+        "sqlsugar.4.6.4.9.nupkg.sha512",
+        "sqlsugar.nuspec"
+      ]
+    },
+    "Blog.Core.IRepository/1.0.0": {
+      "type": "project",
+      "path": "../Blog.Core.IRepository/Blog.Core.IRepository.csproj",
+      "msbuildProject": "../Blog.Core.IRepository/Blog.Core.IRepository.csproj"
+    },
+    "Blog.Core.IServices/1.0.0": {
+      "type": "project",
+      "path": "../Blog.Core.IServices/Blog.Core.IServices.csproj",
+      "msbuildProject": "../Blog.Core.IServices/Blog.Core.IServices.csproj"
+    },
+    "Blog.Core.Model/1.0.0": {
+      "type": "project",
+      "path": "../Blog.Core.Model/Blog.Core.Model.csproj",
+      "msbuildProject": "../Blog.Core.Model/Blog.Core.Model.csproj"
+    },
+    "Blog.Core.Repository/1.0.0": {
+      "type": "project",
+      "path": "../Blog.Core.Repository/Blog.Core.Repository.csproj",
+      "msbuildProject": "../Blog.Core.Repository/Blog.Core.Repository.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "Blog.Core.IRepository >= 1.0.0",
+      "Blog.Core.IServices >= 1.0.0",
+      "Blog.Core.Repository >= 1.0.0",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
   },
@@ -692,7 +782,17 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\GitLearn\\PersonalBlogCore\\PersonalBlogCore\\Blog.Core.IRepository\\Blog.Core.IRepository.csproj": {
+              "projectPath": "D:\\GitLearn\\PersonalBlogCore\\PersonalBlogCore\\Blog.Core.IRepository\\Blog.Core.IRepository.csproj"
+            },
+            "D:\\GitLearn\\PersonalBlogCore\\PersonalBlogCore\\Blog.Core.IServices\\Blog.Core.IServices.csproj": {
+              "projectPath": "D:\\GitLearn\\PersonalBlogCore\\PersonalBlogCore\\Blog.Core.IServices\\Blog.Core.IServices.csproj"
+            },
+            "D:\\GitLearn\\PersonalBlogCore\\PersonalBlogCore\\Blog.Core.Repository\\Blog.Core.Repository.csproj": {
+              "projectPath": "D:\\GitLearn\\PersonalBlogCore\\PersonalBlogCore\\Blog.Core.Repository\\Blog.Core.Repository.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -718,5 +818,17 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用“.NETFramework,Version=v4.6.1”而不是项目目标框架“.NETCoreApp,Version=v2.0”还原包“sqlSugar 4.6.4.9”。此包可能与项目不完全兼容。",
+      "libraryId": "sqlSugar",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.0"
+      ]
+    }
+  ]
 }
