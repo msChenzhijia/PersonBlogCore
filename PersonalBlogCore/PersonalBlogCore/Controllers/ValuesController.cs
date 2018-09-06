@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Blog.Core.Model;
 using Microsoft.AspNetCore.Mvc;
 
 namespace PersonalBlogCore.Controllers
@@ -18,7 +19,7 @@ namespace PersonalBlogCore.Controllers
         /// <returns></returns>
         // GET api/values
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IEnumerable<string> Get(Love love)
         {
             return new string[] { "value1", "value2" };
         }
@@ -37,10 +38,10 @@ namespace PersonalBlogCore.Controllers
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="value"></param>
+        /// <param name="love"></param>
         // POST api/values
         [HttpPost]
-        public void Post([FromBody]string value)
+        public void Post(Love love)
         {
         }
         /// <summary>

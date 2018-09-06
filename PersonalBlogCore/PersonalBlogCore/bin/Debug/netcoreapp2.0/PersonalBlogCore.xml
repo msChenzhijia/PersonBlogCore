@@ -4,5 +4,89 @@
         <name>PersonalBlogCore</name>
     </assembly>
     <members>
+        <member name="T:PersonalBlogCore.Controllers.ValuesController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PersonalBlogCore.Controllers.ValuesController.Get(Blog.Core.Model.Love)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PersonalBlogCore.Controllers.ValuesController.Get(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PersonalBlogCore.Controllers.ValuesController.Post(Blog.Core.Model.Love)">
+            <summary>
+            
+            </summary>
+            <param name="love"></param>
+        </member>
+        <member name="M:PersonalBlogCore.Controllers.ValuesController.Put(System.Int32,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:PersonalBlogCore.Controllers.ValuesController.Delete(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="T:PersonalBlogCore.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PersonalBlogCore.Program.Main(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:PersonalBlogCore.Program.BuildWebHost(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:PersonalBlogCore.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PersonalBlogCore.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:PersonalBlogCore.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PersonalBlogCore.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:PersonalBlogCore.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
     </members>
 </doc>

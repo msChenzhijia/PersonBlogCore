@@ -52,6 +52,8 @@ namespace PersonalBlogCore
                 });
                 var basePath = PlatformServices.Default.Application.ApplicationBasePath;
                 var xmlPath = Path.Combine(basePath, "PersonalBlogCore.xml");//这个就是刚刚配置的xml文件名
+                var xmlModelPath = Path.Combine(basePath, "Blog.Core.Model.xml");
+                c.IncludeXmlComments(xmlModelPath, true);
                 c.IncludeXmlComments(xmlPath, true);//默认的第二个参数是false，这个是controller的注释，记得修改
             });
             #endregion
