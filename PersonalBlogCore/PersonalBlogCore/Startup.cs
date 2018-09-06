@@ -55,6 +55,20 @@ namespace PersonalBlogCore
                 var xmlModelPath = Path.Combine(basePath, "Blog.Core.Model.xml");
                 c.IncludeXmlComments(xmlModelPath, true);
                 c.IncludeXmlComments(xmlPath, true);//默认的第二个参数是false，这个是controller的注释，记得修改
+                #region  Token绑定到ConfigureServices
+                //添加header验证信息
+                var security = new Dictionary<string, IEnumerable<string>>
+                { {
+                        "Blog.Core",new string[]{ }
+                }};
+                c.AddSecurityDefinition("Blog.Core", new ApiKeyScheme
+                {
+                    Description= "JWT授权(数据将在请求头中进行传输) 直接在下框中输入{token}\"",
+                    Name = "Authorization",//jwt默认的参数名称
+                    In = "header",//jwt默认存放Authorization信息的位置(请求头中)
+                    Type = "apiKey"
+                });
+                #endregion
             });
             #endregion
 
