@@ -196,16 +196,6 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
-      },
-      "Blog.Core.IRepository/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.0",
-        "compile": {
-          "bin/placeholder/Blog.Core.IRepository.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Blog.Core.IRepository.dll": {}
-        }
       }
     }
   },
@@ -666,16 +656,10 @@
         "netstandard.library.2.0.0.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
-    },
-    "Blog.Core.IRepository/1.0.0": {
-      "type": "project",
-      "path": "../Blog.Core.IRepository/Blog.Core.IRepository.csproj",
-      "msbuildProject": "../Blog.Core.IRepository/Blog.Core.IRepository.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
-      "Blog.Core.IRepository >= 1.0.0",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
   },
@@ -686,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitLearn\\PersonalBlogCore\\PersonalBlogCore\\Blog.Core.Repository\\Blog.Core.Repository.csproj",
-      "projectName": "Blog.Core.Repository",
-      "projectPath": "D:\\GitLearn\\PersonalBlogCore\\PersonalBlogCore\\Blog.Core.Repository\\Blog.Core.Repository.csproj",
+      "projectUniqueName": "D:\\GitLearn\\PersonalBlogCore\\PersonalBlogCore\\Blog.Core.Services\\Blog.Core.Services.csproj",
+      "projectName": "Blog.Core.Services",
+      "projectPath": "D:\\GitLearn\\PersonalBlogCore\\PersonalBlogCore\\Blog.Core.Services\\Blog.Core.Services.csproj",
       "packagesPath": "C:\\Users\\CZJ\\.nuget\\packages\\",
-      "outputPath": "D:\\GitLearn\\PersonalBlogCore\\PersonalBlogCore\\Blog.Core.Repository\\obj\\",
+      "outputPath": "D:\\GitLearn\\PersonalBlogCore\\PersonalBlogCore\\Blog.Core.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -708,11 +692,7 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {
-            "D:\\GitLearn\\PersonalBlogCore\\PersonalBlogCore\\Blog.Core.IRepository\\Blog.Core.IRepository.csproj": {
-              "projectPath": "D:\\GitLearn\\PersonalBlogCore\\PersonalBlogCore\\Blog.Core.IRepository\\Blog.Core.IRepository.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

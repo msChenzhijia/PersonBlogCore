@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Blog.Core.IRepository
+namespace Blog.Core.Services
 {
     public class Class1
     {
