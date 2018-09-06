@@ -4,6 +4,53 @@
         <name>PersonalBlogCore</name>
     </assembly>
     <members>
+        <member name="T:PersonalBlogCore.AuthHelper.OverWrite.JwtHelper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PersonalBlogCore.AuthHelper.OverWrite.JwtHelper.secretKey">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PersonalBlogCore.AuthHelper.OverWrite.JwtHelper.IssueJWT(Blog.Core.Model.TokenModelJWT)">
+            <summary>
+            颁发JWT字符串
+            </summary>
+            <param name="tokenModelJWT"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PersonalBlogCore.AuthHelper.OverWrite.JwtHelper.SerializeJWT(System.String)">
+            <summary>
+            解析
+            </summary>
+            <param name="jwtStr"></param>
+            <returns></returns>
+        </member>
+        <member name="T:PersonalBlogCore.AuthHelper.OverWrite.JwtTokenAuth">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:PersonalBlogCore.AuthHelper.OverWrite.JwtTokenAuth._next">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PersonalBlogCore.AuthHelper.OverWrite.JwtTokenAuth.#ctor(Microsoft.AspNetCore.Http.RequestDelegate)">
+            <summary>
+            
+            </summary>
+            <param name="next"></param>
+        </member>
+        <member name="M:PersonalBlogCore.AuthHelper.OverWrite.JwtTokenAuth.Invoke(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            
+            </summary>
+            <param name="httpContext"></param>
+            <returns></returns>
+        </member>
         <member name="T:PersonalBlogCore.Controllers.ValuesController">
             <summary>
             

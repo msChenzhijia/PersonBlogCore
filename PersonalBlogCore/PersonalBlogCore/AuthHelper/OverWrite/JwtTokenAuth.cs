@@ -1,7 +1,9 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Blog.Core.Model;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 
 namespace PersonalBlogCore.AuthHelper.OverWrite
@@ -23,6 +25,11 @@ namespace PersonalBlogCore.AuthHelper.OverWrite
         {
             _next = next;
         }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="httpContext"></param>
+        /// <returns></returns>
         public Task Invoke(HttpContext httpContext)
         {
             //检测是否包含Authorization请求头
@@ -31,7 +38,15 @@ namespace PersonalBlogCore.AuthHelper.OverWrite
                 return _next(httpContext);
             }
             var tokenHeader = httpContext.Request.Headers["Authorization"].ToString();
-            Toke
+            TokenModelJWT tm = JwtHelper.SerializeJWT(tokenHeader);
+            //授权
+            var claimList = new List<Claim>();
+            var claim = new Claim(ClaimTypes.Role, tm.Role);
+            claimList.Add(claim);
+            var identity = new ClaimsIdentity(claimList);
+            var principal = new ClaimsPrincipal(identity);
+            httpContext.User = principal;
+            return _next(httpContext);
         }
     }
 }

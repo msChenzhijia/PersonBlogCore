@@ -10,6 +10,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.Extensions.PlatformAbstractions;
+using PersonalBlogCore.AuthHelper.OverWrite;
 using Swashbuckle.AspNetCore.Swagger;
 
 namespace PersonalBlogCore
@@ -92,6 +93,7 @@ namespace PersonalBlogCore
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "ApiHelp V1");
             });
             #endregion
+            app.UseMiddleware<JwtTokenAuth>();
             app.UseMvc();
         }
     }

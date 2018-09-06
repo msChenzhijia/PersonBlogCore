@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Blog.Core.Model;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace PersonalBlogCore.Controllers
@@ -11,6 +12,7 @@ namespace PersonalBlogCore.Controllers
     /// 
     /// </summary>
     [Route("api/[controller]")]
+    [Authorize(Policy="Admin")]
     public class ValuesController : Controller
     {
         /// <summary>
