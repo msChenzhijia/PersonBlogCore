@@ -56,6 +56,12 @@
             
             </summary>
         </member>
+        <member name="M:PersonalBlogCore.Controllers.BlogController.#ctor(Blog.Core.IServices.IAdvertisementServices)">
+            <summary>
+            
+            </summary>
+            <param name="advertisementServices"></param>
+        </member>
         <member name="M:PersonalBlogCore.Controllers.BlogController.Get(System.Int32,System.Int32)">
             <summary>
             Sum接口

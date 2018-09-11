@@ -2,8 +2,13 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
+using Autofac;
+using Autofac.Extensions.DependencyInjection;
+using Blog.Core.IServices;
 using Blog.Core.Repository.sugar;
+using Blog.Core.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -38,7 +43,7 @@ namespace PersonalBlogCore
         /// </summary>
         /// <param name="services"></param>
         // This method gets called by the runtime. Use this method to add services to the container.
-        public void ConfigureServices(IServiceCollection services)
+        public IServiceProvider ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
             #region Swagger 
@@ -71,10 +76,25 @@ namespace PersonalBlogCore
                     Type = "apiKey"
                 });
                 #endregion
+               
+                #endregion
                 //BaseDBConfig.ConnectionString=Configuration.GetSection("AppSettings:MySqlConnection").Value;
+               
             });
+            #region AutoFac
+            //实例化AutoFac容器
+            var builder = new ContainerBuilder();
+            //注册要通过反射创建的组件
+            //builder.RegisterType<AdvertisementServices>().As<IAdvertisementServices>();
+            var assemblysServices = Assembly.Load("Blog.Core.Services");
+            builder.RegisterAssemblyTypes(assemblysServices).AsImplementedInterfaces();// 指定已扫描程序集中的类型注册为提供所有其实现的接口。
+            var assemblyRepository = Assembly.Load("Blog.Core.Repository");
+            builder.RegisterAssemblyTypes(assemblyRepository).AsImplementedInterfaces();
+            //将Services填充Autofac容器生成器
+            builder.Populate(services);
+            var ApplicationContainer = builder.Build();
             #endregion
-
+            return new AutofacServiceProvider(ApplicationContainer);
         }
         /// <summary>
         /// 

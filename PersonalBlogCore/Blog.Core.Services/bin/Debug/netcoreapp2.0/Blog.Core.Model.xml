@@ -45,6 +45,11 @@
             返回数据集合
             </summary>
         </member>
+        <member name="T:Blog.Core.Model.Models.Advertisement">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="P:Blog.Core.Model.Models.Advertisement.Id">
             <summary>
             分类ID
@@ -75,7 +80,11 @@
             备注
             </summary>
         </member>
-        <!-- 对于成员“T:Blog.Core.Model.Models.BlogArticle”忽略有格式错误的 XML 注释 -->
+        <member name="T:Blog.Core.Model.Models.BlogArticle">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="P:Blog.Core.Model.Models.BlogArticle.bID">
             <summary>
             
@@ -169,6 +178,16 @@
         <member name="T:Blog.Core.Model.Models.Module">
             <summary>
             菜单类
+            </summary>
+        </member>
+        <member name="M:Blog.Core.Model.Models.Module.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.Models.Module.Id">
+            <summary>
+            
             </summary>
         </member>
         <member name="P:Blog.Core.Model.Models.Module.IsDeleted">
@@ -266,9 +285,34 @@
             修改时间
             </summary>
         </member>
+        <member name="P:Blog.Core.Model.Models.Module.ParentModule">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.Models.Module.ChildModule">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.Models.Module.ModulePermission">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.Models.Module.RoleModulePermission">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="T:Blog.Core.Model.Models.ModulePermission">
             <summary>
             菜单与按钮关系表
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.Models.ModulePermission.Id">
+            <summary>
+            
             </summary>
         </member>
         <member name="P:Blog.Core.Model.Models.ModulePermission.IsDeleted">
@@ -315,6 +359,16 @@
              <summary>
             修改时间
              </summary>
+        </member>
+        <member name="P:Blog.Core.Model.Models.ModulePermission.Module">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.Models.ModulePermission.Permission">
+            <summary>
+            
+            </summary>
         </member>
         <member name="T:Blog.Core.Model.Models.OperateLog">
             <summary>

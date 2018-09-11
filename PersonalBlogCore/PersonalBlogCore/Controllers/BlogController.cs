@@ -19,6 +19,15 @@ namespace PersonalBlogCore.Controllers
     //[Authorize(Policy = "Admin")]
     public class BlogController : Controller
     {
+        private IAdvertisementServices advertisementServices;
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="advertisementServices"></param>
+        public BlogController(IAdvertisementServices advertisementServices)
+        {
+            this.advertisementServices = advertisementServices;
+        }
         // GET: api/Blog
         /// <summary>
         /// Sum接口
@@ -27,10 +36,9 @@ namespace PersonalBlogCore.Controllers
         /// <param name="j">参数j</param>
         /// <returns></returns>
         [HttpGet]
-        public int Get(int i, int j)
-        {
-            IAdvertisementServices advertisementServices = new AdvertisementServices();
-            return advertisementServices.Sum(i, j);
+        public Task<List<Advertisement>> Get(int i, int j)
+        {            
+            return advertisementServices.Query();
         }
         /// <summary>
         /// 
@@ -38,9 +46,8 @@ namespace PersonalBlogCore.Controllers
         /// <param name="id"></param>
         /// <returns></returns>
         [HttpGet("{id}",Name ="Get")]
-        public List<Advertisement> Get(int id)
-        {
-            IAdvertisementServices advertisementServices = new AdvertisementServices();
+        public Task<List<Advertisement>> Get(int id)
+        {            
             return advertisementServices.Query(x => x.Id == id);
         }
         /// <summary>

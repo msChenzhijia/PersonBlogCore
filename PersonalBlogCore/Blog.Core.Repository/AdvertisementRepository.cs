@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Blog.Core.Repository
 {
-    public class AdvertisementRepository 
+    public class AdvertisementRepository:BaseRepository<Advertisement>,IAdvertisementRepository
     {
       
        

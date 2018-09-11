@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 
 namespace Blog.Core.IServices
 {
-    public interface IAdvertisementServices
+    public interface IAdvertisementServices:IBaseServices<Advertisement>
     {        
         //int Sum(int i, int j);
         //int Add(Advertisement model);

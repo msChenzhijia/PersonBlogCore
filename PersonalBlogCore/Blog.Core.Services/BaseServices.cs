@@ -11,7 +11,7 @@ namespace Blog.Core.Services
 {
     public class BaseServices<T> : IBaseServices<T> where T : class, new()
     {
-        private IBaseRepository<T> baseRepository = new BaseRepository<T>();
+       public IBaseRepository<T> baseRepository;       
         public Task<int> Add(T model)
         {
             return baseRepository.Add(model);
