@@ -50,10 +50,7 @@ namespace Blog.Core.Repository
             {
                 return new DbContext();
             }
-
         }
-
-
         /// <summary>
         /// 功能描述:构造函数
         /// 作　　者:Blog.Core
@@ -113,7 +110,7 @@ namespace Blog.Core.Repository
         /// 作　　者:Blog.Core
         /// </summary>
         /// <returns>返回值</returns>
-        public SimpleClient<T> GetEntityDB<T>() where T : class, new()
+        public SimpleClient<T> GeTDB<T>() where T : class, new()
         {
             return new SimpleClient<T>(_db);
         }
@@ -123,7 +120,7 @@ namespace Blog.Core.Repository
         /// </summary>
         /// <param name="db">db</param>
         /// <returns>返回值</returns>
-        public SimpleClient<T> GetEntityDB<T>(SqlSugarClient db) where T : class, new()
+        public SimpleClient<T> GeTDB<T>(SqlSugarClient db) where T : class, new()
         {
             return new SimpleClient<T>(db);
         }
@@ -268,16 +265,16 @@ namespace {Namespace}
         /// 作　　者:Blog.Core
         /// </summary>
         /// <param name="blnBackupTable">是否备份表</param>
-        /// <param name="lstEntitys">指定的实体</param>
-        public void CreateTableByEntity<T>(bool blnBackupTable, params T[] lstEntitys) where T : class, new()
+        /// <param name="lsTs">指定的实体</param>
+        public void CreateTableByEntity<T>(bool blnBackupTable, params T[] lsTs) where T : class, new()
         {
             Type[] lstTypes = null;
-            if (lstEntitys != null)
+            if (lsTs != null)
             {
-                lstTypes = new Type[lstEntitys.Length];
-                for (int i = 0; i < lstEntitys.Length; i++)
+                lstTypes = new Type[lsTs.Length];
+                for (int i = 0; i < lsTs.Length; i++)
                 {
-                    T t = lstEntitys[i];
+                    T t = lsTs[i];
                     lstTypes[i] = typeof(T);
                 }
             }
@@ -289,16 +286,16 @@ namespace {Namespace}
         /// 作　　者:Blog.Core
         /// </summary>
         /// <param name="blnBackupTable">是否备份表</param>
-        /// <param name="lstEntitys">指定的实体</param>
-        public void CreateTableByEntity(bool blnBackupTable, params Type[] lstEntitys)
+        /// <param name="lsTs">指定的实体</param>
+        public void CreateTableByEntity(bool blnBackupTable, params Type[] lsTs)
         {
             if (blnBackupTable)
             {
-                _db.CodeFirst.BackupTable().InitTables(lstEntitys); //change entity backupTable            
+                _db.CodeFirst.BackupTable().InitTables(lsTs); //change entity backupTable            
             }
             else
             {
-                _db.CodeFirst.InitTables(lstEntitys);
+                _db.CodeFirst.InitTables(lsTs);
             }
         }
         #endregion
@@ -324,7 +321,7 @@ namespace {Namespace}
         /// </summary>
         /// <param name="strConnectionString">连接字符串</param>
         /// <param name="enmDbType">数据库类型</param>
-        public static void Init(string strConnectionString, DbType enmDbType = SqlSugar.DbType.SqlServer)
+        public static void Init(string strConnectionString, DbType enmDbType = SqlSugar.DbType.MySql)
         {
             _connectionString = strConnectionString;
             _dbType = enmDbType;

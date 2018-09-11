@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Text;
 
 namespace Blog.Core.Repository.sugar
@@ -10,8 +11,8 @@ namespace Blog.Core.Repository.sugar
 
         //正常格式是
 
-        public static string ConnectionString = "server=localhost;user=root;password=123;post=3306;database=personalblogcore;sslmode=none;";
-
+        public static string ConnectionString = "Database=personalblogcore;Data Source=127.0.0.1;User Id=root;Password=123;pooling=false;CharSet=utf8;port=3306";
+       // public static string ConnectionString= Configuration.GetSection("AppSetting:MySqlConnection").Value;
         //原谅我用配置文件的形式，因为我直接调用的是我的服务器账号和密码，安全起见
     }
 }
