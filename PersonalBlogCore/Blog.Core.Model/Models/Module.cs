@@ -11,13 +11,18 @@ namespace Blog.Core.Model.Models
     /// </summary>
     public class Module
     {
+        /// <summary>
+        /// 
+        /// </summary>
         public Module()
         {
             this.ChildModule = new List<Module>();
             this.ModulePermission = new List<ModulePermission>();
             this.RoleModulePermission = new List<RoleModulePermission>();
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
         public int Id { get; set; }
 
         /// <summary>
@@ -96,10 +101,21 @@ namespace Blog.Core.Model.Models
         /// 修改时间
         /// </summary>
         public DateTime? ModifyTime { get; set; }
-
+        /// <summary>
+        /// 
+        /// </summary>
         public virtual Module ParentModule { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
         public virtual ICollection<Module> ChildModule { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
         public virtual ICollection<ModulePermission> ModulePermission { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
         public virtual ICollection<RoleModulePermission> RoleModulePermission { get; set; }
     }
 }

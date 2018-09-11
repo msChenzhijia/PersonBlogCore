@@ -11,6 +11,9 @@ namespace Blog.Core.Model.Models
     /// </summary>
     public class ModulePermission
     {
+        /// <summary>
+        /// 
+        /// </summary>
         public int Id { get; set; }
 
         /// <summary>
@@ -49,8 +52,13 @@ namespace Blog.Core.Model.Models
         ///修改时间
         /// </summary>
         public DateTime? ModifyTime { get; set; }
-
+        /// <summary>
+        /// 
+        /// </summary>
         public virtual Module Module { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
         public virtual Permission Permission { get; set; }
     }
 }

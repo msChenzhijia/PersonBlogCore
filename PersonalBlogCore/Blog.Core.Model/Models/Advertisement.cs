@@ -2,6 +2,9 @@
 
 namespace Blog.Core.Model.Models
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public class Advertisement
     {
         /// <summary>
