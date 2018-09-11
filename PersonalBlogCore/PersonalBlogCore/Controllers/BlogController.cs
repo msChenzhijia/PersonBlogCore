@@ -20,6 +20,7 @@ namespace PersonalBlogCore.Controllers
     public class BlogController : Controller
     {
         private IAdvertisementServices advertisementServices;
+        private IBlogArticleServices  BlogArticleServices;
         /// <summary>
         /// 
         /// </summary>
@@ -76,6 +77,16 @@ namespace PersonalBlogCore.Controllers
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
+        }
+        /// <summary>
+        /// 获取博客列表
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet]
+        [Route("GetBlogs")]
+        public async Task<List<BlogArticle>> GetBlogs()
+        {
+            return await  BlogArticleServices.Query();
         }
         
     }
