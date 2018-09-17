@@ -4963,24 +4963,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\CZJ\\.nuget\\packages\\": {},
+    "C:\\Users\\28036\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitLearn\\PersonalBlogCore\\PersonalBlogCore\\Blog.Core.Services\\Blog.Core.Services.csproj",
+      "projectUniqueName": "D:\\DotNet\\ASP.NET Core\\PersonalBlogCore\\PersonalBlogCore\\Blog.Core.Services\\Blog.Core.Services.csproj",
       "projectName": "Blog.Core.Services",
-      "projectPath": "D:\\GitLearn\\PersonalBlogCore\\PersonalBlogCore\\Blog.Core.Services\\Blog.Core.Services.csproj",
-      "packagesPath": "C:\\Users\\CZJ\\.nuget\\packages\\",
-      "outputPath": "D:\\GitLearn\\PersonalBlogCore\\PersonalBlogCore\\Blog.Core.Services\\obj\\",
+      "projectPath": "D:\\DotNet\\ASP.NET Core\\PersonalBlogCore\\PersonalBlogCore\\Blog.Core.Services\\Blog.Core.Services.csproj",
+      "packagesPath": "C:\\Users\\28036\\.nuget\\packages\\",
+      "outputPath": "D:\\DotNet\\ASP.NET Core\\PersonalBlogCore\\PersonalBlogCore\\Blog.Core.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\CZJ\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\28036\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -4992,17 +4995,17 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "D:\\GitLearn\\PersonalBlogCore\\PersonalBlogCore\\Blog.Core.Common\\Blog.Core.Common.csproj": {
-              "projectPath": "D:\\GitLearn\\PersonalBlogCore\\PersonalBlogCore\\Blog.Core.Common\\Blog.Core.Common.csproj"
+            "D:\\DotNet\\ASP.NET Core\\PersonalBlogCore\\PersonalBlogCore\\Blog.Core.Common\\Blog.Core.Common.csproj": {
+              "projectPath": "D:\\DotNet\\ASP.NET Core\\PersonalBlogCore\\PersonalBlogCore\\Blog.Core.Common\\Blog.Core.Common.csproj"
             },
-            "D:\\GitLearn\\PersonalBlogCore\\PersonalBlogCore\\Blog.Core.IRepository\\Blog.Core.IRepository.csproj": {
-              "projectPath": "D:\\GitLearn\\PersonalBlogCore\\PersonalBlogCore\\Blog.Core.IRepository\\Blog.Core.IRepository.csproj"
+            "D:\\DotNet\\ASP.NET Core\\PersonalBlogCore\\PersonalBlogCore\\Blog.Core.IRepository\\Blog.Core.IRepository.csproj": {
+              "projectPath": "D:\\DotNet\\ASP.NET Core\\PersonalBlogCore\\PersonalBlogCore\\Blog.Core.IRepository\\Blog.Core.IRepository.csproj"
             },
-            "D:\\GitLearn\\PersonalBlogCore\\PersonalBlogCore\\Blog.Core.IServices\\Blog.Core.IServices.csproj": {
-              "projectPath": "D:\\GitLearn\\PersonalBlogCore\\PersonalBlogCore\\Blog.Core.IServices\\Blog.Core.IServices.csproj"
+            "D:\\DotNet\\ASP.NET Core\\PersonalBlogCore\\PersonalBlogCore\\Blog.Core.IServices\\Blog.Core.IServices.csproj": {
+              "projectPath": "D:\\DotNet\\ASP.NET Core\\PersonalBlogCore\\PersonalBlogCore\\Blog.Core.IServices\\Blog.Core.IServices.csproj"
             },
-            "D:\\GitLearn\\PersonalBlogCore\\PersonalBlogCore\\Blog.Core.Repository\\Blog.Core.Repository.csproj": {
-              "projectPath": "D:\\GitLearn\\PersonalBlogCore\\PersonalBlogCore\\Blog.Core.Repository\\Blog.Core.Repository.csproj"
+            "D:\\DotNet\\ASP.NET Core\\PersonalBlogCore\\PersonalBlogCore\\Blog.Core.Repository\\Blog.Core.Repository.csproj": {
+              "projectPath": "D:\\DotNet\\ASP.NET Core\\PersonalBlogCore\\PersonalBlogCore\\Blog.Core.Repository\\Blog.Core.Repository.csproj"
             }
           }
         }

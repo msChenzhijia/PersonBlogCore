@@ -83,10 +83,34 @@ namespace PersonalBlogCore
                 });
                 #endregion
                
-                #endregion
+             
                 //BaseDBConfig.ConnectionString=Configuration.GetSection("AppSettings:MySqlConnection").Value;
                
             });
+            #endregion
+            #region CORS
+            services.AddCors(c =>
+            {
+                //↓↓↓↓↓↓↓注意正式环境不要使用这种全开放的处理↓↓↓↓↓↓↓↓↓↓
+                c.AddPolicy("AllRequests", policy =>
+                {
+                    policy.AllowAnyOrigin()//允许任何源
+                          .AllowAnyMethod()//允许任何方式
+                          .AllowAnyHeader()//允许任何头
+                          .AllowCredentials();//允许cookie
+                });
+                //↑↑↑↑↑↑↑注意正式环境不要使用这种全开放的处理↑↑↑↑↑↑↑↑↑↑
+                //一般采用这种方法
+                c.AddPolicy("LimitRequests", policy =>
+                {
+                    //policy.WithOrigins("http://localhost:8080", "http://blog.core.personalBlogCore.com", "")//支持多个域名端口
+                    policy.WithOrigins(new string[] { "http://localhost:8080", "" })
+                          .WithMethods("GET", "POST", "PUT", "DELETE")//请求方法添加到策略
+                          .WithHeaders("Access-Control-Allow-Origin");//标头添加到策略
+                });
+            });
+           
+            #endregion
             #region AutoFac
             //实例化AutoFac容器
             var builder = new ContainerBuilder();
@@ -132,6 +156,7 @@ namespace PersonalBlogCore
             });
             #endregion
             app.UseMiddleware<JwtTokenAuth>();
+            app.UseCors("LimitRequests");//将 CORS 中间件添加到 web 应用程序管线中, 以允许跨域请求。有的不加也是可以的，最好是加上吧
             app.UseMvc();
         }
     }
