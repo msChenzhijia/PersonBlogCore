@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Blog.Core.Common.Helper;
+using Blog.Core.Common.Redis;
 using Blog.Core.IServices;
 using Blog.Core.Model.Models;
 using Blog.Core.Services;
@@ -20,14 +22,19 @@ namespace PersonalBlogCore.Controllers
     public class BlogController : Controller
     {
         private IAdvertisementServices advertisementServices;
-        private IBlogArticleServices  BlogArticleServices;
+        private IBlogArticleServices  blogArticleServices;
+        private IRedisCacheManager redisCacheManager;//Reids缓存
         /// <summary>
         /// 
         /// </summary>
         /// <param name="advertisementServices"></param>
-        public BlogController(IAdvertisementServices advertisementServices)
+        /// <param name="blogArticleServices"></param>
+        /// <param name="redisCacheManager"></param>
+        public BlogController(IAdvertisementServices advertisementServices, IBlogArticleServices blogArticleServices,IRedisCacheManager redisCacheManager)
         {
             this.advertisementServices = advertisementServices;
+            this.blogArticleServices = blogArticleServices;
+            this.redisCacheManager = redisCacheManager;
         }
         // GET: api/Blog
         /// <summary>
@@ -38,8 +45,8 @@ namespace PersonalBlogCore.Controllers
         /// <returns></returns>
         [HttpGet]
         public Task<List<Advertisement>> Get(int i, int j)
-        {            
-            return advertisementServices.Query();
+        {
+             return advertisementServices.Query();            
         }
         /// <summary>
         /// 
@@ -48,8 +55,8 @@ namespace PersonalBlogCore.Controllers
         /// <returns></returns>
         [HttpGet("{id}",Name ="Get")]
         public Task<List<Advertisement>> Get(int id)
-        {            
-            return advertisementServices.Query(x => x.Id == id);
+        {
+             return advertisementServices.Query(x => x.Id == id);            
         }
         /// <summary>
         /// 
@@ -86,7 +93,20 @@ namespace PersonalBlogCore.Controllers
         [Route("GetBlogs")]
         public async Task<List<BlogArticle>> GetBlogs()
         {
-            return await  BlogArticleServices.Query();
+            //var connect = Appsettings.app(new string []{ "AppSettings", "RedisCaching", "ConnectionString"});//按照层级的顺序，依次写出来
+            List<BlogArticle> blogArticlesList = new List<BlogArticle>();
+            if (redisCacheManager.Get<object>("Redis.Blog")!=null)
+            {
+                blogArticlesList = redisCacheManager.Get<List<BlogArticle>>("Redis.Blog");
+            }
+            else
+            {
+                blogArticlesList = await blogArticleServices.Query(d => d.bID > 5);
+                redisCacheManager.Set("Redis.Blog", blogArticlesList, TimeSpan.FromHours(2));//缓存2小时
+            }
+            return blogArticlesList;
+
+
         }
         
     }

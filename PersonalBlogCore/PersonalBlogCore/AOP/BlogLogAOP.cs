@@ -30,6 +30,9 @@ namespace PersonalBlogCore.AOP
                 Directory.CreateDirectory(path);
             }
             string filename = path + $@"\InterceptLog-{DateTime.Now.ToString("yyyyMMddHHmmss")}.log";
+            StreamWriter sw = File.AppendText(filename);
+            sw.WriteLine(dataIntercept);
+            sw.Close();
             #endregion
         }
     }

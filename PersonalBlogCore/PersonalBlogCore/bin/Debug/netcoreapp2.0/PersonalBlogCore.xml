@@ -4,6 +4,85 @@
         <name>PersonalBlogCore</name>
     </assembly>
     <members>
+        <member name="T:PersonalBlogCore.AOP.BlogCacheAOP">
+            <summary>
+            面向切面的缓存使用
+            </summary>
+        </member>
+        <member name="M:PersonalBlogCore.AOP.BlogCacheAOP.#ctor(PersonalBlogCore.AOP.ICaching)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="caching"></param>
+        </member>
+        <member name="M:PersonalBlogCore.AOP.BlogCacheAOP.Intercept(Castle.DynamicProxy.IInvocation)">
+            <summary>
+            Intercept方法是拦截的关键所在，也是IInterceptor接口中的唯一定义
+            </summary>
+            <param name="invocation"></param>
+        </member>
+        <member name="M:PersonalBlogCore.AOP.BlogCacheAOP.GetArgumentValue(System.Object)">
+            <summary>
+            object转string
+            </summary>
+            <param name="arg"></param>
+            <returns></returns>
+        </member>
+        <member name="T:PersonalBlogCore.AOP.BlogLogAOP">
+            <summary>
+            拦截器BlogLogAOP 继承IInterceptor接口
+            </summary>
+        </member>
+        <member name="M:PersonalBlogCore.AOP.BlogLogAOP.Intercept(Castle.DynamicProxy.IInvocation)">
+            <summary>
+            实例化IInterceptor唯一方法 
+            </summary>
+            <param name="invocation">包含被拦截方法的信息</param>
+        </member>
+        <member name="T:PersonalBlogCore.AOP.ICaching">
+            <summary>
+            简单的缓存接口，只有查询和添加，以后会进行扩展
+            </summary>
+        </member>
+        <member name="M:PersonalBlogCore.AOP.ICaching.Get(System.String)">
+            <summary>
+            获取缓存
+            </summary>
+            <param name="cachekey">键</param>
+            <returns></returns>
+        </member>
+        <member name="M:PersonalBlogCore.AOP.ICaching.Set(System.String,System.Object)">
+            <summary>
+            存放缓存
+            </summary>
+            <param name="chachekey">键</param>
+            <param name="cacheValue">值</param>
+        </member>
+        <member name="T:PersonalBlogCore.AOP.MemoryCaching">
+            <summary>
+            缓存实现
+            </summary>
+        </member>
+        <member name="M:PersonalBlogCore.AOP.MemoryCaching.#ctor(Microsoft.Extensions.Caching.Memory.IMemoryCache)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="memoryCache"></param>
+        </member>
+        <member name="M:PersonalBlogCore.AOP.MemoryCaching.Get(System.String)">
+            <summary>
+            获取缓存
+            </summary>
+            <param name="cachekey"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PersonalBlogCore.AOP.MemoryCaching.Set(System.String,System.Object)">
+            <summary>
+            存放缓存
+            </summary>
+            <param name="chachekey"></param>
+            <param name="cacheValue"></param>
+        </member>
         <member name="T:PersonalBlogCore.AuthHelper.OverWrite.JwtHelper">
             <summary>
             
@@ -56,11 +135,13 @@
             
             </summary>
         </member>
-        <member name="M:PersonalBlogCore.Controllers.BlogController.#ctor(Blog.Core.IServices.IAdvertisementServices)">
+        <member name="M:PersonalBlogCore.Controllers.BlogController.#ctor(Blog.Core.IServices.IAdvertisementServices,Blog.Core.IServices.IBlogArticleServices,Blog.Core.Common.Redis.IRedisCacheManager)">
             <summary>
             
             </summary>
             <param name="advertisementServices"></param>
+            <param name="blogArticleServices"></param>
+            <param name="redisCacheManager"></param>
         </member>
         <member name="M:PersonalBlogCore.Controllers.BlogController.Get(System.Int32,System.Int32)">
             <summary>
@@ -95,6 +176,12 @@
             
             </summary>
             <param name="id"></param>
+        </member>
+        <member name="M:PersonalBlogCore.Controllers.BlogController.GetBlogs">
+            <summary>
+            获取博客列表
+            </summary>
+            <returns></returns>
         </member>
         <member name="T:PersonalBlogCore.Controllers.LoginController">
             <summary>

@@ -1,0 +1,12 @@
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Common\bin\Debug\netcoreapp2.0\Blog.Core.Common.deps.json
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Common\bin\Debug\netcoreapp2.0\Blog.Core.Common.dll
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Common\bin\Debug\netcoreapp2.0\Blog.Core.Common.pdb
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Common\obj\Debug\netcoreapp2.0\Blog.Core.Common.csprojAssemblyReference.cache
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Common\obj\Debug\netcoreapp2.0\Blog.Core.Common.csproj.CoreCompileInputs.cache
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Common\obj\Debug\netcoreapp2.0\Blog.Core.Common.AssemblyInfoInputs.cache
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Common\obj\Debug\netcoreapp2.0\Blog.Core.Common.AssemblyInfo.cs
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Common\obj\Debug\netcoreapp2.0\Blog.Core.Common.dll
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Common\obj\Debug\netcoreapp2.0\Blog.Core.Common.pdb
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Common\bin\Debug\netcoreapp2.0\StackExchange.Redis.StrongName.dll
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Common\bin\Debug\netcoreapp2.0\StackExchange.Redis.StrongName.xml
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Common\obj\Debug\netcoreapp2.0\Blog.Core.Common.csproj.CopyComplete

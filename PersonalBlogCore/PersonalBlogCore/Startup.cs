@@ -6,6 +6,8 @@ using System.Reflection;
 using System.Threading.Tasks;
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
+using Autofac.Extras.DynamicProxy;
+using Blog.Core.Common.Redis;
 using Blog.Core.IServices;
 using Blog.Core.Repository.sugar;
 using Blog.Core.Services;
@@ -16,6 +18,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.Extensions.PlatformAbstractions;
+using PersonalBlogCore.AOP;
 using PersonalBlogCore.AuthHelper.OverWrite;
 using Swashbuckle.AspNetCore.Swagger;
 
@@ -45,7 +48,10 @@ namespace PersonalBlogCore
         // This method gets called by the runtime. Use this method to add services to the container.
         public IServiceProvider ConfigureServices(IServiceCollection services)
         {
+            var basePath = PlatformServices.Default.Application.ApplicationBasePath;
             services.AddMvc();
+            services.AddScoped<ICaching, MemoryCaching>();
+            services.AddScoped<IRedisCacheManager, RedisCacheManager>();
             #region Swagger 
             services.AddSwaggerGen(c =>
             {
@@ -57,7 +63,7 @@ namespace PersonalBlogCore
                     TermsOfService = "None",
                     Contact = new Swashbuckle.AspNetCore.Swagger.Contact { Name = "Blog.Core", Email = "Blog.Core@xxx.com", Url = "https://www.jianshu.com/u/94102b59cc2a" }
                 });
-                var basePath = PlatformServices.Default.Application.ApplicationBasePath;
+               
                 var xmlPath = Path.Combine(basePath, "PersonalBlogCore.xml");//这个就是刚刚配置的xml文件名
                 var xmlModelPath = Path.Combine(basePath, "Blog.Core.Model.xml");
                 c.IncludeXmlComments(xmlModelPath, true);
@@ -86,10 +92,19 @@ namespace PersonalBlogCore
             var builder = new ContainerBuilder();
             //注册要通过反射创建的组件
             //builder.RegisterType<AdvertisementServices>().As<IAdvertisementServices>();
-            var assemblysServices = Assembly.Load("Blog.Core.Services");
-            builder.RegisterAssemblyTypes(assemblysServices).AsImplementedInterfaces();// 指定已扫描程序集中的类型注册为提供所有其实现的接口。
-            var assemblyRepository = Assembly.Load("Blog.Core.Repository");
+            //var assemblysServices = Assembly.Load("Blog.Core.Services");
+            //builder.RegisterAssemblyTypes(assemblysServices).AsImplementedInterfaces();// 指定已扫描程序集中的类型注册为提供所有其实现的接口。
+            builder.RegisterType<BlogCacheAOP>();
+            var servicesDllFile = Path.Combine(basePath, "Blog.Core.Services.dll");//获取项目绝对路径
+            var assemblysServices = Assembly.LoadFile(servicesDllFile);//直接采用加载文件的方法
+            builder.RegisterAssemblyTypes(assemblysServices).AsImplementedInterfaces().InstancePerLifetimeScope().EnableInterfaceInterceptors().InterceptedBy(typeof(BlogCacheAOP));//允许将拦截器服务的列表分配给注册。可以直接替换其他拦截器
+            var repositoryDllFile = Path.Combine(basePath, "Blog.Core.Repository.dll");
+            var assemblyRepository = Assembly.LoadFile(repositoryDllFile);
             builder.RegisterAssemblyTypes(assemblyRepository).AsImplementedInterfaces();
+
+
+            //var assemblyRepository = Assembly.Load("Blog.Core.Repository");
+            //builder.RegisterAssemblyTypes(assemblyRepository).AsImplementedInterfaces();
             //将Services填充Autofac容器生成器
             builder.Populate(services);
             var ApplicationContainer = builder.Build();

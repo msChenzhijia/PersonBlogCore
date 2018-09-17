@@ -1,4 +1,6 @@
-﻿using Blog.Core.IServices;
+﻿using Blog.Core.Common.Attributes;
+using Blog.Core.IRepository;
+using Blog.Core.IServices;
 using Blog.Core.Model.Models;
 using System;
 using System.Collections.Generic;
@@ -9,19 +11,21 @@ namespace Blog.Core.Services
 {
     public class BlogArticleServices:BaseServices<BlogArticle>,IBlogArticleServices
     {
-        IBlogArticleServices blogArticleServices;
+        IBlogArticleRepository blogArticleRepository;
       
-        public BlogArticleServices(IBlogArticleServices blogArticleServices)
+        public BlogArticleServices(IBlogArticleRepository blogArticleRepository)
         {
-            this.blogArticleServices = blogArticleServices;
+            this.blogArticleRepository = blogArticleRepository;
+            this.baseRepository = blogArticleRepository;
         }
         /// <summary>
         /// 获取博客列表
         /// </summary>
         /// <param name="blogArticleServices"></param>
+        [Caching(AbsoluteExpiration=10)]
         public async Task<List<BlogArticle>> getBlogs()
         {
-            return await blogArticleServices.Query();
+            return await blogArticleRepository.Query(a=>a.bID>0,a=>a.bID);
         }
     }
 }

@@ -22,3 +22,6 @@ D:\GitLearn\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\bin\Debug\netcore
 D:\GitLearn\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\bin\Debug\netcoreapp2.0\Blog.Core.Services.pdb
 D:\GitLearn\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\bin\Debug\netcoreapp2.0\Blog.Core.IRepository.pdb
 D:\GitLearn\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\bin\Debug\netcoreapp2.0\Blog.Core.Repository.pdb
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\bin\Debug\netcoreapp2.0\Blog.Core.Common.dll
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\bin\Debug\netcoreapp2.0\Blog.Core.Common.pdb
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\bin\Debug\netcoreapp2.0\appsettings.json
