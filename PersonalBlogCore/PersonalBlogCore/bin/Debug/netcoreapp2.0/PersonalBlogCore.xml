@@ -130,6 +130,16 @@
             <param name="httpContext"></param>
             <returns></returns>
         </member>
+        <member name="T:PersonalBlogCore.AutoMapper.CustomProfile">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PersonalBlogCore.AutoMapper.CustomProfile.#ctor">
+            <summary>
+            配置构造函数，用来创建关系映射
+            </summary>
+        </member>
         <member name="T:PersonalBlogCore.Controllers.BlogController">
             <summary>
             

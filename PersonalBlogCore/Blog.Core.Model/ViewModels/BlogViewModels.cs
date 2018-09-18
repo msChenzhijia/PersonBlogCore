@@ -9,7 +9,7 @@ namespace Blog.Core.Model.VeiwModels
     /// <summary>
     /// 博客信息展示类
     /// </summary>
-    public class BlogViewModels
+    public  class BlogViewModels
     {
         /// <summary>
         /// 

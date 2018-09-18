@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using Autofac.Extras.DynamicProxy;
+using AutoMapper;
 using Blog.Core.Common.Redis;
 using Blog.Core.IServices;
 using Blog.Core.Repository.sugar;
@@ -52,6 +53,7 @@ namespace PersonalBlogCore
             services.AddMvc();
             services.AddScoped<ICaching, MemoryCaching>();
             services.AddScoped<IRedisCacheManager, RedisCacheManager>();
+            services.AddAutoMapper(typeof(Startup));//这是AutoMapper的2.0新特性
             #region Swagger 
             services.AddSwaggerGen(c =>
             {
