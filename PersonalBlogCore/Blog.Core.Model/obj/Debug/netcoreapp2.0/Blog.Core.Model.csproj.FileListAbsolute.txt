@@ -2,7 +2,6 @@ D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Model\bin\Debug\netcorea
 D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Model\bin\Debug\netcoreapp2.0\Blog.Core.Model.deps.json
 D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Model\bin\Debug\netcoreapp2.0\Blog.Core.Model.dll
 D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Model\bin\Debug\netcoreapp2.0\Blog.Core.Model.pdb
-D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Model\obj\Debug\netcoreapp2.0\Blog.Core.Model.csprojAssemblyReference.cache
 D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Model\obj\Debug\netcoreapp2.0\Blog.Core.Model.csproj.CoreCompileInputs.cache
 D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Model\obj\Debug\netcoreapp2.0\Blog.Core.Model.AssemblyInfoInputs.cache
 D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Model\obj\Debug\netcoreapp2.0\Blog.Core.Model.AssemblyInfo.cs
