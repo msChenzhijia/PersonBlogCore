@@ -52,3 +52,8 @@ D:\DotNet\ASP.NET Core\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\obj\De
 D:\DotNet\ASP.NET Core\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\obj\Debug\netcoreapp2.0\PersonalBlogCore.csproj.CopyComplete
 D:\DotNet\ASP.NET Core\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\obj\Debug\netcoreapp2.0\PersonalBlogCore.dll
 D:\DotNet\ASP.NET Core\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\obj\Debug\netcoreapp2.0\PersonalBlogCore.pdb
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\bin\Debug\netcoreapp2.0\Blog.Core.Common.xml
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\bin\Debug\netcoreapp2.0\Blog.Core.IServices.xml
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\bin\Debug\netcoreapp2.0\Blog.Core.Services.xml
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\bin\Debug\netcoreapp2.0\Blog.Core.IRepository.xml
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\bin\Debug\netcoreapp2.0\Blog.Core.Repository.xml

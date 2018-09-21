@@ -21,3 +21,6 @@ D:\DotNet\ASP.NET Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Common\obj\De
 D:\DotNet\ASP.NET Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Common\obj\Debug\netcoreapp2.0\Blog.Core.Common.csproj.CopyComplete
 D:\DotNet\ASP.NET Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Common\obj\Debug\netcoreapp2.0\Blog.Core.Common.dll
 D:\DotNet\ASP.NET Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Common\obj\Debug\netcoreapp2.0\Blog.Core.Common.pdb
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Common\bin\Debug\netcoreapp2.0\Blog.Core.Common.xml
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Common\obj\Debug\netcoreapp2.0\Blog.Core.Common.xml
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Common\obj\Debug\netcoreapp2.0\Blog.Core.Common.csprojAssemblyReference.cache

@@ -1,0 +1,5 @@
+D:\GitLearn\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=PersonalBlogCore
+--content-root=D:\GitLearn\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore
+--file=

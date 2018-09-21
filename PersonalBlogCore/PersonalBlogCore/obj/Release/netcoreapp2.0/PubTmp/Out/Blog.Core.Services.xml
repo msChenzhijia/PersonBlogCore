@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Blog.Core.Services</name>
+    </assembly>
+    <members>
+        <member name="M:Blog.Core.Services.BlogArticleServices.getBlogDetails(System.Int32)">
+            <summary>
+            获取视图博客详情信息
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.Services.BlogArticleServices.getBlogs">
+            <summary>
+            获取博客列表
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

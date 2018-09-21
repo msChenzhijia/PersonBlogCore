@@ -9,8 +9,14 @@ namespace Blog.Core.Common.Redis
     public class RedisCacheManager : IRedisCacheManager
     {
         private readonly string redisConnectionString;
+        /// <summary>
+        /// 
+        /// </summary>
         public volatile ConnectionMultiplexer redisConnection;
         private readonly object redisConnectionLock = new object();
+        /// <summary>
+        /// 
+        /// </summary>
         public RedisCacheManager()
         {
             string redisConfiguration = Appsettings.app(new string[] { "AppSettings", "RedisCaching", "ConnectionString"});
