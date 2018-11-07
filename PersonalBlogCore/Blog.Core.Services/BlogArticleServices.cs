@@ -12,10 +12,18 @@ using System.Threading.Tasks;
 
 namespace Blog.Core.Services
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public class BlogArticleServices : BaseServices<BlogArticle>, IBlogArticleServices
     {
         IBlogArticleRepository dal;
         IMapper IMapper;
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="dal"></param>
+        /// <param name="IMapper"></param>
         public BlogArticleServices(IBlogArticleRepository dal, IMapper IMapper)
         {
             this.dal = dal;
@@ -88,8 +96,7 @@ namespace Blog.Core.Services
 
         /// <summary>
         /// 获取博客列表
-        /// </summary>
-        /// <param name="id"></param>
+        /// </summary>        
         /// <returns></returns>
         [Caching(AbsoluteExpiration = 10)]
         public async Task<List<BlogArticle>> getBlogs()

@@ -8,9 +8,16 @@ using System.Linq.Expressions;
 
 namespace Blog.Core.Services
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public class AdvertisementServices :BaseServices<Advertisement>,IAdvertisementServices
     {
         IAdvertisementRepository dal;
+        /// <summary>
+        /// 构造函数
+        /// </summary>
+        /// <param name="advertisementRepository"></param>
         public AdvertisementServices(IAdvertisementRepository advertisementRepository)
         {
             dal = advertisementRepository;

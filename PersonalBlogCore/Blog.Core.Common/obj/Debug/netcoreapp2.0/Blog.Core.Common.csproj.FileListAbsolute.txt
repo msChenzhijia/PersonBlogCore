@@ -24,3 +24,17 @@ D:\DotNet\ASP.NET Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Common\obj\De
 D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Common\bin\Debug\netcoreapp2.0\Blog.Core.Common.xml
 D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Common\obj\Debug\netcoreapp2.0\Blog.Core.Common.xml
 D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Common\obj\Debug\netcoreapp2.0\Blog.Core.Common.csprojAssemblyReference.cache
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Common\bin\Debug\netcoreapp2.0\Blog.Core.Common.deps.json
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Common\bin\Debug\netcoreapp2.0\Blog.Core.Common.dll
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Common\bin\Debug\netcoreapp2.0\Blog.Core.Common.pdb
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Common\bin\Debug\netcoreapp2.0\Blog.Core.Common.xml
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Common\bin\Debug\netcoreapp2.0\StackExchange.Redis.StrongName.dll
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Common\bin\Debug\netcoreapp2.0\StackExchange.Redis.StrongName.xml
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Common\obj\Debug\netcoreapp2.0\Blog.Core.Common.csprojAssemblyReference.cache
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Common\obj\Debug\netcoreapp2.0\Blog.Core.Common.csproj.CoreCompileInputs.cache
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Common\obj\Debug\netcoreapp2.0\Blog.Core.Common.AssemblyInfoInputs.cache
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Common\obj\Debug\netcoreapp2.0\Blog.Core.Common.AssemblyInfo.cs
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Common\obj\Debug\netcoreapp2.0\Blog.Core.Common.csproj.CopyComplete
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Common\obj\Debug\netcoreapp2.0\Blog.Core.Common.dll
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Common\obj\Debug\netcoreapp2.0\Blog.Core.Common.xml
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Common\obj\Debug\netcoreapp2.0\Blog.Core.Common.pdb

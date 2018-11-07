@@ -5,6 +5,9 @@ using System.Text;
 
 namespace Blog.Core.IRepository
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public interface IBlogArticleRepository:IBaseRepository<BlogArticle>
     {
     }

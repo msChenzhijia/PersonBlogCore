@@ -4,6 +4,32 @@
         <name>Blog.Core.Repository</name>
     </assembly>
     <members>
+        <member name="T:Blog.Core.Repository.AdvertisementRepository">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Blog.Core.Repository.BaseRepository`1">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="F:Blog.Core.Repository.BaseRepository`1.context">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Repository.BaseRepository`1.Context">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Blog.Core.Repository.BaseRepository`1.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="M:Blog.Core.Repository.BaseRepository`1.Add(`0)">
             <summary>
             新增
@@ -172,6 +198,26 @@
             <param name="strWhere"></param>
             <returns></returns>
         </member>
+        <member name="T:Blog.Core.Repository.BlogArticleRepository">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Blog.Core.Repository.sugar.BaseDBConfig">
+            <summary>
+            数据库配置
+            </summary>
+        </member>
+        <member name="F:Blog.Core.Repository.sugar.BaseDBConfig.ConnectionString">
+            <summary>
+            数据库连接字符串
+            </summary>
+        </member>
+        <member name="T:Blog.Core.Repository.DbContext">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="P:Blog.Core.Repository.DbContext.ConnectionString">
             <summary>
             连接字符串 
@@ -322,6 +368,19 @@
             </summary>
             <param name="config">config</param>
             <returns>返回值</returns>
+        </member>
+        <member name="T:Blog.Core.Repository.UserInfoReposity">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Blog.Core.Repository.UserInfoReposity.GetLoginUserAndPass(System.String,System.String)">
+            <summary>
+            根据用户名和密码登录
+            </summary>
+            <param name="name"></param>
+            <param name="pass"></param>
+            <returns></returns>        
         </member>
     </members>
 </doc>

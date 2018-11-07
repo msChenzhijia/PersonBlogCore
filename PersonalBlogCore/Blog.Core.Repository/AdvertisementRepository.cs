@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 
 namespace Blog.Core.Repository
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public class AdvertisementRepository:BaseRepository<Advertisement>,IAdvertisementRepository
     {
       

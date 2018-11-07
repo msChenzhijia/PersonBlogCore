@@ -106,7 +106,7 @@ namespace PersonalBlogCore
                 c.AddPolicy("LimitRequests", policy =>
                 {
                     //policy.WithOrigins("http://localhost:8080", "http://blog.core.personalBlogCore.com", "")//支持多个域名端口
-                    policy.WithOrigins(new string[] { "http://localhost:8080", "" })
+                    policy.WithOrigins( new string[] { "http://localhost:8081" , "http://localhost:8080", "http://localhost:8082", "http://localhost:8083","http://localhost:8084" })
                           .WithMethods("GET", "POST", "PUT", "DELETE")//请求方法添加到策略
                           .WithHeaders("Access-Control-Allow-Origin");//标头添加到策略
                 });
@@ -158,7 +158,7 @@ namespace PersonalBlogCore
             });
             #endregion
             app.UseMiddleware<JwtTokenAuth>();
-            app.UseCors("LimitRequests");//将 CORS 中间件添加到 web 应用程序管线中, 以允许跨域请求。有的不加也是可以的，最好是加上吧
+            app.UseCors("AllRequests");//将 CORS 中间件添加到 web 应用程序管线中, 以允许跨域请求。有的不加也是可以的，最好是加上吧
             app.UseMvc();
         }
     }

@@ -57,3 +57,35 @@ D:\GitLearn\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\bin\Debug\netcore
 D:\GitLearn\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\bin\Debug\netcoreapp2.0\Blog.Core.Services.xml
 D:\GitLearn\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\bin\Debug\netcoreapp2.0\Blog.Core.IRepository.xml
 D:\GitLearn\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\bin\Debug\netcoreapp2.0\Blog.Core.Repository.xml
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\bin\Debug\netcoreapp2.0\appsettings.json
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\bin\Debug\netcoreapp2.0\PersonalBlogCore.xml
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\bin\Debug\netcoreapp2.0\PersonalBlogCore.deps.json
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\bin\Debug\netcoreapp2.0\PersonalBlogCore.runtimeconfig.json
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\bin\Debug\netcoreapp2.0\PersonalBlogCore.runtimeconfig.dev.json
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\bin\Debug\netcoreapp2.0\PersonalBlogCore.dll
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\bin\Debug\netcoreapp2.0\PersonalBlogCore.pdb
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\bin\Debug\netcoreapp2.0\Blog.Core.Common.dll
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\bin\Debug\netcoreapp2.0\Blog.Core.IRepository.dll
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\bin\Debug\netcoreapp2.0\Blog.Core.IServices.dll
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\bin\Debug\netcoreapp2.0\Blog.Core.Model.dll
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\bin\Debug\netcoreapp2.0\Blog.Core.Repository.dll
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\bin\Debug\netcoreapp2.0\Blog.Core.Services.dll
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\bin\Debug\netcoreapp2.0\Blog.Core.Common.pdb
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\bin\Debug\netcoreapp2.0\Blog.Core.Common.xml
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\bin\Debug\netcoreapp2.0\Blog.Core.IServices.pdb
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\bin\Debug\netcoreapp2.0\Blog.Core.IServices.xml
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\bin\Debug\netcoreapp2.0\Blog.Core.Model.pdb
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\bin\Debug\netcoreapp2.0\Blog.Core.Model.xml
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\bin\Debug\netcoreapp2.0\Blog.Core.Services.pdb
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\bin\Debug\netcoreapp2.0\Blog.Core.Services.xml
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\bin\Debug\netcoreapp2.0\Blog.Core.IRepository.pdb
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\bin\Debug\netcoreapp2.0\Blog.Core.IRepository.xml
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\bin\Debug\netcoreapp2.0\Blog.Core.Repository.pdb
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\bin\Debug\netcoreapp2.0\Blog.Core.Repository.xml
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\obj\Debug\netcoreapp2.0\PersonalBlogCore.csprojAssemblyReference.cache
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\obj\Debug\netcoreapp2.0\PersonalBlogCore.csproj.CoreCompileInputs.cache
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\obj\Debug\netcoreapp2.0\PersonalBlogCore.AssemblyInfoInputs.cache
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\obj\Debug\netcoreapp2.0\PersonalBlogCore.AssemblyInfo.cs
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\obj\Debug\netcoreapp2.0\PersonalBlogCore.csproj.CopyComplete
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\obj\Debug\netcoreapp2.0\PersonalBlogCore.dll
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\PersonalBlogCore\obj\Debug\netcoreapp2.0\PersonalBlogCore.pdb

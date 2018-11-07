@@ -5,6 +5,9 @@ using System.Linq.Expressions;
 
 namespace Blog.Core.IRepository
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public interface IAdvertisementRepository:IBaseRepository<Advertisement>
     {
         //int Sum(int i, int j);

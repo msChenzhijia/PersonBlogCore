@@ -50,3 +50,32 @@ D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\bin\Debug\netco
 D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\bin\Debug\netcoreapp2.0\Blog.Core.IServices.xml
 D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\bin\Debug\netcoreapp2.0\Blog.Core.Repository.xml
 D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\obj\Debug\netcoreapp2.0\Blog.Core.Services.xml
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\bin\Debug\netcoreapp2.0\Blog.Core.Services.deps.json
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\bin\Debug\netcoreapp2.0\Blog.Core.Services.dll
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\bin\Debug\netcoreapp2.0\Blog.Core.Services.pdb
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\bin\Debug\netcoreapp2.0\Blog.Core.Services.xml
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\bin\Debug\netcoreapp2.0\Blog.Core.Common.dll
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\bin\Debug\netcoreapp2.0\Blog.Core.IRepository.dll
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\bin\Debug\netcoreapp2.0\Blog.Core.IServices.dll
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\bin\Debug\netcoreapp2.0\Blog.Core.Model.dll
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\bin\Debug\netcoreapp2.0\Blog.Core.Repository.dll
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\bin\Debug\netcoreapp2.0\StackExchange.Redis.StrongName.dll
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\bin\Debug\netcoreapp2.0\Blog.Core.Common.pdb
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\bin\Debug\netcoreapp2.0\Blog.Core.Common.xml
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\bin\Debug\netcoreapp2.0\Blog.Core.IRepository.pdb
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\bin\Debug\netcoreapp2.0\Blog.Core.IRepository.xml
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\bin\Debug\netcoreapp2.0\Blog.Core.IServices.pdb
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\bin\Debug\netcoreapp2.0\Blog.Core.IServices.xml
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\bin\Debug\netcoreapp2.0\Blog.Core.Repository.pdb
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\bin\Debug\netcoreapp2.0\Blog.Core.Repository.xml
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\bin\Debug\netcoreapp2.0\Blog.Core.Model.pdb
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\bin\Debug\netcoreapp2.0\Blog.Core.Model.xml
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\bin\Debug\netcoreapp2.0\StackExchange.Redis.StrongName.xml
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\obj\Debug\netcoreapp2.0\Blog.Core.Services.csprojAssemblyReference.cache
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\obj\Debug\netcoreapp2.0\Blog.Core.Services.csproj.CoreCompileInputs.cache
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\obj\Debug\netcoreapp2.0\Blog.Core.Services.AssemblyInfoInputs.cache
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\obj\Debug\netcoreapp2.0\Blog.Core.Services.AssemblyInfo.cs
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\obj\Debug\netcoreapp2.0\Blog.Core.Services.csproj.CopyComplete
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\obj\Debug\netcoreapp2.0\Blog.Core.Services.dll
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\obj\Debug\netcoreapp2.0\Blog.Core.Services.xml
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Services\obj\Debug\netcoreapp2.0\Blog.Core.Services.pdb

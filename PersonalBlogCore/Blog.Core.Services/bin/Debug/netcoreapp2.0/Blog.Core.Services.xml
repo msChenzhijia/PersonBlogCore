@@ -4,6 +4,208 @@
         <name>Blog.Core.Services</name>
     </assembly>
     <members>
+        <member name="T:Blog.Core.Services.AdvertisementServices">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Blog.Core.Services.AdvertisementServices.#ctor(Blog.Core.IRepository.IAdvertisementRepository)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="advertisementRepository"></param>
+        </member>
+        <member name="T:Blog.Core.Services.BaseServices`1">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="F:Blog.Core.Services.BaseServices`1.baseRepository">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Blog.Core.Services.BaseServices`1.Add(`0)">
+            <summary>
+            
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.Services.BaseServices`1.Delete(`0)">
+            <summary>
+            
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.Services.BaseServices`1.DeleteById(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.Services.BaseServices`1.DeleteByIds(System.Object[])">
+            <summary>
+            
+            </summary>
+            <param name="ids"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.Services.BaseServices`1.Query">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.Services.BaseServices`1.Query(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="strWhere"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.Services.BaseServices`1.Query(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+            
+            </summary>
+            <param name="whereExpression"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.Services.BaseServices`1.Query(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.String)">
+            <summary>
+            
+            </summary>
+            <param name="whereExpression"></param>
+            <param name="strOrderByFileds"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.Services.BaseServices`1.Query(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{`0,System.Object}},System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="whereExpression"></param>
+            <param name="orderByExpression"></param>
+            <param name="isAsc"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.Services.BaseServices`1.Query(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="strWhere"></param>
+            <param name="strOrderByFileds"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.Services.BaseServices`1.Query(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Int32,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="whereExpression"></param>
+            <param name="intTop"></param>
+            <param name="strOrderByFileds"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.Services.BaseServices`1.Query(System.String,System.Int32,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="strWhere"></param>
+            <param name="intTop"></param>
+            <param name="strOrderByFileds"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.Services.BaseServices`1.Query(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Int32,System.Int32,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="whereExpression"></param>
+            <param name="intPageIndex"></param>
+            <param name="intPageSize"></param>
+            <param name="strOrderByFileds"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.Services.BaseServices`1.Query(System.String,System.Int32,System.Int32,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="strWhere"></param>
+            <param name="intPageIndex"></param>
+            <param name="intPageSize"></param>
+            <param name="strOrderByFileds"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.Services.BaseServices`1.QueryByID(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="objId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.Services.BaseServices`1.QueryByID(System.Object,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="objId"></param>
+            <param name="blnUseCache"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.Services.BaseServices`1.QueryByIDs(System.Object[])">
+            <summary>
+            
+            </summary>
+            <param name="lstIds"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.Services.BaseServices`1.QueryPage(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Int32,System.Int32,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="whereExpression"></param>
+            <param name="intPageIndex"></param>
+            <param name="intPageSize"></param>
+            <param name="strOrderByFileds"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.Services.BaseServices`1.Update(`0)">
+            <summary>
+            
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.Services.BaseServices`1.Update(`0,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="entity"></param>
+            <param name="strWhere"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.Services.BaseServices`1.Update(`0,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String},System.String)">
+            <summary>
+            
+            </summary>
+            <param name="entity"></param>
+            <param name="lstColumns"></param>
+            <param name="lstIgnoreColumns"></param>
+            <param name="strWhere"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Blog.Core.Services.BlogArticleServices">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Blog.Core.Services.BlogArticleServices.#ctor(Blog.Core.IRepository.IBlogArticleRepository,AutoMapper.IMapper)">
+            <summary>
+            
+            </summary>
+            <param name="dal"></param>
+            <param name="IMapper"></param>
+        </member>
         <member name="M:Blog.Core.Services.BlogArticleServices.getBlogDetails(System.Int32)">
             <summary>
             获取视图博客详情信息
@@ -14,8 +216,27 @@
         <member name="M:Blog.Core.Services.BlogArticleServices.getBlogs">
             <summary>
             获取博客列表
+            </summary>        
+            <returns></returns>
+        </member>
+        <member name="T:Blog.Core.Services.UserInfoServices">
+            <summary>
+            UserInfo服务层
             </summary>
-            <param name="id"></param>
+        </member>
+        <member name="M:Blog.Core.Services.UserInfoServices.#ctor(Blog.Core.IRepository.IUserInfoReposity,AutoMapper.IMapper)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="iuserInfoReposity"></param>
+            <param name="imaper"></param>
+        </member>
+        <member name="M:Blog.Core.Services.UserInfoServices.GetLoginByUserAndPass(System.String,System.String)">
+            <summary>
+            通过密码和用户名登录
+            </summary>
+            <param name="UserName"></param>
+            <param name="PassWorld"></param>
             <returns></returns>
         </member>
     </members>

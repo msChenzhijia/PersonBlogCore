@@ -665,8 +665,33 @@
             错误次数 
              </summary>
         </member>
-        <!-- 对于成员“T:Blog.Core.Model.Models.Topic”忽略有格式错误的 XML 注释 -->
-        <!-- 对于成员“T:Blog.Core.Model.Models.TopicDetail”忽略有格式错误的 XML 注释 -->
+        <!-- Badly formed XML comment ignored for member "T:Blog.Core.Model.Models.Topic" -->
+        <!-- Badly formed XML comment ignored for member "T:Blog.Core.Model.Models.TopicDetail" -->
+        <member name="T:Blog.Core.Model.Models.UserInfo">
+            <summary>
+            用户信息表
+            </summary>
+        </member>
+        <member name="F:Blog.Core.Model.Models.UserInfo.username">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="F:Blog.Core.Model.Models.UserInfo.password">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.Models.UserInfo.UserName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.Models.UserInfo.Pass">
+            <summary>
+            密码
+            </summary>
+        </member>
         <member name="T:Blog.Core.Model.Models.UserRole">
             <summary>
             用户跟角色关联表

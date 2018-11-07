@@ -198,6 +198,11 @@
             
             </summary>
         </member>
+        <member name="M:PersonalBlogCore.Controllers.LoginController.#ctor(Blog.Core.IServices.IUserInfoServices)">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="M:PersonalBlogCore.Controllers.LoginController.GetJWTStr(System.Int64,System.String)">
             <summary>
             获取JWT的重写方法，推荐这种，注意在文件夹OverWrite下
@@ -215,6 +220,14 @@
             <param name="sub"></param>
             <param name="expiresSliding"></param>
             <param name="expiresAbsoulute"></param>
+        </member>
+        <member name="M:PersonalBlogCore.Controllers.LoginController.GetLogin(System.String,System.String)">
+            <summary>
+            登录接口
+            </summary>
+            <param name="name">用户名</param>
+            <param name="pass">密码</param>
+            <returns></returns>
         </member>
         <member name="T:PersonalBlogCore.Program">
             <summary>

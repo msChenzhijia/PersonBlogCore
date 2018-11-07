@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Blog.Core.IServices;
 using Blog.Core.Model;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
@@ -18,6 +19,14 @@ namespace PersonalBlogCore.Controllers
     [EnableCors("LimitRequests")]
     public class LoginController : Controller
     {
+        IUserInfoServices userInfoServices;
+        /// <summary>
+        /// 
+        /// </summary>
+        public LoginController(IUserInfoServices userInfoServices)
+        {
+            this.userInfoServices = userInfoServices;
+        }
         #region  获取token的第二种方法
         /// <summary>
         /// 获取JWT的重写方法，推荐这种，注意在文件夹OverWrite下
@@ -56,6 +65,19 @@ namespace PersonalBlogCore.Controllers
             string response = string.Format("\"value\":\"{0}\"", jwtStr);
             string call = callBack + "({" + response + "})";
             Response.WriteAsync(call);
+        }
+
+        /// <summary>
+        /// 登录接口
+        /// </summary>
+        /// <param name="name">用户名</param>
+        /// <param name="pass">密码</param>
+        /// <returns></returns>
+        [HttpGet]        
+        public Task<bool> GetLogin(string name,string pass)
+        {
+            Task<bool> isExits=userInfoServices.GetLoginByUserAndPass(name, pass);
+            return isExits;
         }
     }
 }

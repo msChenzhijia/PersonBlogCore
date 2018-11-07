@@ -26,3 +26,18 @@ D:\DotNet\ASP.NET Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.IRepository\o
 D:\DotNet\ASP.NET Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.IRepository\obj\Debug\netcoreapp2.0\Blog.Core.IRepository.pdb
 D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.IRepository\bin\Debug\netcoreapp2.0\Blog.Core.IRepository.xml
 D:\GitLearn\PersonalBlogCore\PersonalBlogCore\Blog.Core.IRepository\obj\Debug\netcoreapp2.0\Blog.Core.IRepository.xml
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.IRepository\bin\Debug\netcoreapp2.0\Blog.Core.IRepository.deps.json
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.IRepository\bin\Debug\netcoreapp2.0\Blog.Core.IRepository.dll
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.IRepository\bin\Debug\netcoreapp2.0\Blog.Core.IRepository.pdb
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.IRepository\bin\Debug\netcoreapp2.0\Blog.Core.IRepository.xml
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.IRepository\bin\Debug\netcoreapp2.0\Blog.Core.Model.dll
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.IRepository\bin\Debug\netcoreapp2.0\Blog.Core.Model.pdb
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.IRepository\bin\Debug\netcoreapp2.0\Blog.Core.Model.xml
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.IRepository\obj\Debug\netcoreapp2.0\Blog.Core.IRepository.csprojAssemblyReference.cache
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.IRepository\obj\Debug\netcoreapp2.0\Blog.Core.IRepository.csproj.CoreCompileInputs.cache
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.IRepository\obj\Debug\netcoreapp2.0\Blog.Core.IRepository.AssemblyInfoInputs.cache
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.IRepository\obj\Debug\netcoreapp2.0\Blog.Core.IRepository.AssemblyInfo.cs
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.IRepository\obj\Debug\netcoreapp2.0\Blog.Core.IRepository.csproj.CopyComplete
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.IRepository\obj\Debug\netcoreapp2.0\Blog.Core.IRepository.dll
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.IRepository\obj\Debug\netcoreapp2.0\Blog.Core.IRepository.xml
+F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.IRepository\obj\Debug\netcoreapp2.0\Blog.Core.IRepository.pdb

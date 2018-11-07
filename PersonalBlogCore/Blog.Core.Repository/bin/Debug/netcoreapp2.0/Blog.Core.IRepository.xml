@@ -4,5 +4,202 @@
         <name>Blog.Core.IRepository</name>
     </assembly>
     <members>
+        <member name="T:Blog.Core.IRepository.IAdvertisementRepository">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Blog.Core.IRepository.IBaseRepository`1">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:Blog.Core.IRepository.IBaseRepository`1.QueryById(System.Object)">
+            <summary>
+            通过id查询
+            </summary>
+            <param name="objId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.IRepository.IBaseRepository`1.QueryById(System.Object,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="objId"></param>
+            <param name="blnUseCache"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.IRepository.IBaseRepository`1.QueryByIds(System.Object[])">
+            <summary>
+            查询数据集
+            </summary>        
+            <param name="lstIds"></param>        
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.IRepository.IBaseRepository`1.Add(`0)">
+            <summary>
+            新增一条
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.IRepository.IBaseRepository`1.deleteById(System.Object)">
+            <summary>
+            通过id删除
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.IRepository.IBaseRepository`1.delete(`0)">
+            <summary>
+            通过实体删除        
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.IRepository.IBaseRepository`1.deleteByIds(System.Object[])">
+            <summary>
+            批量删除        
+            </summary>
+            <param name="lstIds"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.IRepository.IBaseRepository`1.Update(`0)">
+            <summary>
+            更新
+            </summary>
+            <param name="obj">对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.IRepository.IBaseRepository`1.Update(`0,System.String)">
+            <summary>
+            更新
+            </summary>
+            <param name="entity">实体类</param>
+            <param name="strWhere">条件</param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.IRepository.IBaseRepository`1.Update(`0,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String},System.String)">
+            <summary>
+            更新
+            </summary>
+            <param name="entity"></param>
+            <param name="lstColumns"></param>
+            <param name="lstIgnoreColumns"></param>
+            <param name="strWhere"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.IRepository.IBaseRepository`1.Query">
+            <summary>
+            查询
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.IRepository.IBaseRepository`1.Query(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="strWhere"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.IRepository.IBaseRepository`1.Query(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+            
+            </summary>
+            <param name="whereExpression"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.IRepository.IBaseRepository`1.Query(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.String)">
+            <summary>
+            
+            </summary>
+            <param name="whereExpression"></param>
+            <param name="strOrderByFileds"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.IRepository.IBaseRepository`1.Query(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{`0,System.Object}},System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="whereExpression"></param>
+            <param name="orderByExpression"></param>
+            <param name="isAsc"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.IRepository.IBaseRepository`1.Query(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="strWhere"></param>
+            <param name="strOrderByFileds"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.IRepository.IBaseRepository`1.Query(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Int32,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="whereExpression"></param>
+            <param name="intTop"></param>
+            <param name="strOrderByFileds"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.IRepository.IBaseRepository`1.Query(System.String,System.Int32,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="strWhere"></param>
+            <param name="intTop"></param>
+            <param name="strOrderByFileds"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.IRepository.IBaseRepository`1.Query(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Int32,System.Int32,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="whereExpression"></param>
+            <param name="intPageIndex"></param>
+            <param name="intPageSize"></param>
+            <param name="strOrderByFileds"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.IRepository.IBaseRepository`1.Query(System.String,System.Int32,System.Int32,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="strWhere"></param>
+            <param name="intPageIndex"></param>
+            <param name="intPageSize"></param>
+            <param name="strOrderByFileds"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.IRepository.IBaseRepository`1.QueryPage(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Int32,System.Int32,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="whereExpression"></param>
+            <param name="intPageIndex"></param>
+            <param name="intPageSize"></param>
+            <param name="strOrderByFileds"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Blog.Core.IRepository.IBlogArticleRepository">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Blog.Core.IRepository.IUserInfoReposity">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Blog.Core.IRepository.IUserInfoReposity.GetLoginUserAndPass(System.String,System.String)">
+            <summary>
+            通过用户名和密码登录
+            </summary>
+            <param name="name"></param>
+            <param name="pass"></param>
+            <returns></returns>
+        </member>
     </members>
 </doc>

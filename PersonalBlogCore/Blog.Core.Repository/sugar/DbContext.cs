@@ -5,6 +5,9 @@ using System.Text;
 
 namespace Blog.Core.Repository
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public class DbContext
     {
 

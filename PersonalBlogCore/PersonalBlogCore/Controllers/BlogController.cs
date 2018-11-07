@@ -95,15 +95,15 @@ namespace PersonalBlogCore.Controllers
         {
             //var connect = Appsettings.app(new string []{ "AppSettings", "RedisCaching", "ConnectionString"});//按照层级的顺序，依次写出来
             List<BlogArticle> blogArticlesList = new List<BlogArticle>();
-            if (redisCacheManager.Get<object>("Redis.Blog")!=null)
-            {
-                blogArticlesList = redisCacheManager.Get<List<BlogArticle>>("Redis.Blog");
-            }
-            else
-            {
-                blogArticlesList = await blogArticleServices.Query(d => d.bID > 5);
+            //if (redisCacheManager.Get<object>("Redis.Blog") != null)
+            //{
+            //    blogArticlesList = redisCacheManager.Get<List<BlogArticle>>("Redis.Blog");
+            //}
+            //else
+            //{
+                blogArticlesList = await blogArticleServices.Query(d => d.bID < 5);
                 redisCacheManager.Set("Redis.Blog", blogArticlesList, TimeSpan.FromHours(2));//缓存2小时
-            }
+            //}
             return blogArticlesList;
 
 

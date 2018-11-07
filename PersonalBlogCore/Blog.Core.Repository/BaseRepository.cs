@@ -9,11 +9,21 @@ using System.Threading.Tasks;
 
 namespace Blog.Core.Repository
 {
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     public class BaseRepository<T> : IBaseRepository<T> where T : class, new()
     {
+        /// <summary>
+        /// 
+        /// </summary>
         public DbContext context;
         private SqlSugarClient db;
         private SimpleClient<T> entityDB;
+        /// <summary>
+        /// 
+        /// </summary>
         public DbContext Context
         {
             get { return context; }
@@ -30,6 +40,9 @@ namespace Blog.Core.Repository
             get { return entityDB; }
             private set { entityDB = value; }
         }
+        /// <summary>
+        /// 
+        /// </summary>
         public BaseRepository()
         {
             DbContext.Init(BaseDBConfig.ConnectionString);

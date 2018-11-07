@@ -951,10 +951,11 @@
   },
   "libraries": {
     "Autofac/4.2.0": {
-      "sha512": "WHiPMqI8FYa4Mf4yTb0P/aBibHn7Z0B9r02CEXy9oAAkQMJpHxLOE45iIMMW+xthXu26V9nRIz7o5lA7V3ztgw==",
+      "sha512": "RRh2YpTe996tSqM0fgqe1ig5qL5vOxjG4ZUKcw3SajsreDH3fnfETC82BUz3JQ8hStOGWiW2j2aHNVTDZahtBw==",
       "type": "package",
       "path": "autofac/4.2.0",
       "files": [
+        ".signature.p7s",
         "autofac.4.2.0.nupkg.sha512",
         "autofac.nuspec",
         "lib/net45/Autofac.dll",
@@ -996,10 +997,11 @@
       ]
     },
     "Castle.Core/4.3.1": {
-      "sha512": "8Y/eTr6GTElAGV7eAmJuhfLhGdFpNvaNrQ9UQYDScziLmX+/BLGM+9eQr0IcdNDcPN0ADmbtwT6MgecGKy4obw==",
+      "sha512": "Dx90A7xzdyYiaq1aMn3QmblpFAaVhDCiZkSblt96pf8QopOjLxCcs5ufKJA1zyg2L+Hxjnzx3JNrmfK8ZMRHvA==",
       "type": "package",
       "path": "castle.core/4.3.1",
       "files": [
+        ".signature.p7s",
         "ASL - Apache Software Foundation License.txt",
         "CHANGELOG.md",
         "LICENSE",
@@ -1079,10 +1081,11 @@
       ]
     },
     "Microsoft.NETCore.App/2.0.0": {
-      "sha512": "/mzXF+UtZef+VpzzN88EpvFq5U6z4rj54ZMq/J968H6pcvyLOmcupmTRpJ3CJm8ILoCGh9WI7qpDdiKtuzswrQ==",
+      "sha512": "8Lrz5RgmfIUMtpTmGG1Z+nVlCr14bFco/aQdiNYfb7uys37vQ6dVtds9xPIFANVyf6HFePhD9nGmqFcfv5eKMQ==",
       "type": "package",
       "path": "microsoft.netcore.app/2.0.0",
       "files": [
+        ".signature.p7s",
         "LICENSE.TXT",
         "Microsoft.NETCore.App.versions.txt",
         "THIRD-PARTY-NOTICES.TXT",
@@ -1357,10 +1360,11 @@
       ]
     },
     "Microsoft.NETCore.DotNetAppHost/2.0.0": {
-      "sha512": "L4GGkcI/Mxl8PKLRpFdGmLb5oI8sGIR05bDTGkzCoamAjdUl1Zhkov2swjEsZvKYT8kkdiz39LtwyGYuCJxm1A==",
+      "sha512": "dYQNVWNBsO9LldqAyJTt/wYUq2BScXq3ENBaNUjELS3sT53mwrgyPpmoLHsE7H10RzYOHEl5G0sg/jpZGlIAzA==",
       "type": "package",
       "path": "microsoft.netcore.dotnetapphost/2.0.0",
       "files": [
+        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "microsoft.netcore.dotnetapphost.2.0.0.nupkg.sha512",
@@ -1369,10 +1373,11 @@
       ]
     },
     "Microsoft.NETCore.DotNetHostPolicy/2.0.0": {
-      "sha512": "rm7mMn0A93fwyAwVhbyOCcPuu2hZNL0A0dAur9sNG9pEkONPfCEQeF7m2mC8KpqZO0Ol6tpV5J0AF3HTXT3GXA==",
+      "sha512": "uYoVFwvMIp9KtOjW6huBedoBP+50Pny0aIrmJGPoaHJ9anAtrvCjS+iKFR5MIS8amJRKsLc3YEtpT/AYfYmIdA==",
       "type": "package",
       "path": "microsoft.netcore.dotnethostpolicy/2.0.0",
       "files": [
+        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "microsoft.netcore.dotnethostpolicy.2.0.0.nupkg.sha512",
@@ -1381,10 +1386,11 @@
       ]
     },
     "Microsoft.NETCore.DotNetHostResolver/2.0.0": {
-      "sha512": "uBbjpeSrwsaTCADZCzRk+3aBzNnMqkC4zftJWBsL+Zk+8u+W+/lMb2thM5Y4hiVrv1YQg9t6dKldXzOKkY+pQw==",
+      "sha512": "HYXxywd3EaAw1M2K5ox6oUu0NgG90oDIpyq70IBvOf2keNuMJWYTWZUAoTlpv8E0Ks09DA+gczoA64tCdII5Xw==",
       "type": "package",
       "path": "microsoft.netcore.dotnethostresolver/2.0.0",
       "files": [
+        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "microsoft.netcore.dotnethostresolver.2.0.0.nupkg.sha512",
@@ -1421,10 +1427,11 @@
       ]
     },
     "NETStandard.Library/2.0.0": {
-      "sha512": "7jnbRU+L08FXKMxqUflxEXtVymWvNOrS8yHgu9s6EM8Anr6T/wIX4nZ08j/u3Asz+tCufp3YVwFSEvFTPYmBPA==",
+      "sha512": "sn4JwjEN5iNfqc0bd0Qje5oBZBB9wyuNn4GkQvEzfKVnZ3QH0HHoN9exxydlJGptiCMVdAZu7At9TNj0r8Z0yg==",
       "type": "package",
       "path": "netstandard.library/2.0.0",
       "files": [
+        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "build/NETStandard.Library.targets",
@@ -3743,23 +3750,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\CZJ\\.nuget\\packages\\": {},
+    "C:\\Users\\XYCZJ\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitLearn\\PersonalBlogCore\\PersonalBlogCore\\Blog.Core.IServices\\Blog.Core.IServices.csproj",
+      "projectUniqueName": "F:\\C#\\Asp.Net Core\\PersonalBlogCore\\PersonalBlogCore\\Blog.Core.IServices\\Blog.Core.IServices.csproj",
       "projectName": "Blog.Core.IServices",
-      "projectPath": "D:\\GitLearn\\PersonalBlogCore\\PersonalBlogCore\\Blog.Core.IServices\\Blog.Core.IServices.csproj",
-      "packagesPath": "C:\\Users\\CZJ\\.nuget\\packages\\",
-      "outputPath": "D:\\GitLearn\\PersonalBlogCore\\PersonalBlogCore\\Blog.Core.IServices\\obj\\",
+      "projectPath": "F:\\C#\\Asp.Net Core\\PersonalBlogCore\\PersonalBlogCore\\Blog.Core.IServices\\Blog.Core.IServices.csproj",
+      "packagesPath": "C:\\Users\\XYCZJ\\.nuget\\packages\\",
+      "outputPath": "F:\\C#\\Asp.Net Core\\PersonalBlogCore\\PersonalBlogCore\\Blog.Core.IServices\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\CZJ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\XYCZJ\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3772,8 +3779,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "D:\\GitLearn\\PersonalBlogCore\\PersonalBlogCore\\Blog.Core.Model\\Blog.Core.Model.csproj": {
-              "projectPath": "D:\\GitLearn\\PersonalBlogCore\\PersonalBlogCore\\Blog.Core.Model\\Blog.Core.Model.csproj"
+            "F:\\C#\\Asp.Net Core\\PersonalBlogCore\\PersonalBlogCore\\Blog.Core.Model\\Blog.Core.Model.csproj": {
+              "projectPath": "F:\\C#\\Asp.Net Core\\PersonalBlogCore\\PersonalBlogCore\\Blog.Core.Model\\Blog.Core.Model.csproj"
             }
           }
         }
