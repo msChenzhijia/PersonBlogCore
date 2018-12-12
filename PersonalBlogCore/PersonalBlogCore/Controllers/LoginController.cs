@@ -75,7 +75,7 @@ namespace PersonalBlogCore.Controllers
         /// <returns></returns>
         [HttpGet]        
         public Task<bool> GetLogin(string name,string pass)
-        {
+        {  
             Task<bool> isExits=userInfoServices.GetLoginByUserAndPass(name, pass);
             return isExits;
         }
