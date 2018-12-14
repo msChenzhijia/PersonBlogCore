@@ -108,6 +108,30 @@ namespace PersonalBlogCore.Controllers
 
 
         }
+        [HttpGet]
+        [Route("Inserts")]
+        public  async Task<bool> Inserts(String advertisement)
+        {
+            BlogArticle blogArticle = new BlogArticle();
+            //blogArticle.bcategory = bcategory;
+            //blogArticle.bsubmitter = bsubmitter;
+            //blogArticle.btitle = btitle;
+            //blogArticle.bcontent = bcontent;
+            //blogArticle.bcommentNum = 0;
+            //blogArticle.bCreateTime = DateTime.Now;
+            //blogArticle.bRemark = bRemark;
+            //blogArticle.btraffic = 0;
+            //blogArticle.bsubmitter = "陈志佳";
+            int num=await blogArticleServices.Add(blogArticle);
+            if (num>0)
+            {
+                return  true;
+            }
+            else
+            {
+                return false;
+            }
+        }
         
     }
 }
