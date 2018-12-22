@@ -11,6 +11,9 @@ namespace Blog.Core.Model.Models
     /// </summary>
     public class Role
     {
+        /// <summary>
+        /// 无参构造函数
+        /// </summary>
         public Role()
         {
             this.UserRole = new List<UserRole>();

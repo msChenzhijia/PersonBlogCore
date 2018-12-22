@@ -11,6 +11,9 @@ namespace Blog.Core.Model.Models
     /// </summary>
     public  class Permission
     {
+        /// <summary>
+        /// 构造函数
+        /// </summary>
         public Permission()
         {
             this.ModulePermission = new List<ModulePermission>();

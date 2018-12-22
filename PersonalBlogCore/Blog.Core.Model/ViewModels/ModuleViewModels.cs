@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Blog.Core.Model.VeiwModels
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public  class ModuleViewModels
     {
     }

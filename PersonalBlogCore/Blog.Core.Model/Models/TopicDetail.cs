@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 
 namespace Blog.Core.Model.Models
 {
-    /// <summary>博客文章
-    /// 
+    /// <summary>
+    /// 博客文章
     /// </summary
     public class TopicDetail
     {
+        /// <summary>
+        /// 无参构造函数
+        /// </summary>
         public TopicDetail()
         {
             this.tdUpdatetime = DateTime.Now;

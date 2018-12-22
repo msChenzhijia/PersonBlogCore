@@ -135,6 +135,11 @@
             备注
             </summary>
         </member>
+        <member name="T:Blog.Core.Model.Models.Guestbook">
+            <summary>
+            博客留言
+            </summary>
+        </member>
         <member name="P:Blog.Core.Model.Models.Guestbook.id">
             <summary>留言表
             
@@ -375,6 +380,11 @@
             日志记录
             </summary>
         </member>
+        <member name="P:Blog.Core.Model.Models.OperateLog.Id">
+            <summary>
+            日志记录ID
+            </summary>
+        </member>
         <member name="P:Blog.Core.Model.Models.OperateLog.IsDeleted">
              <summary>
             获取或设置是否禁用，逻辑上的删除，非物理删除
@@ -425,6 +435,11 @@
             用户跟角色关联表
             </summary>
         </member>
+        <member name="P:Blog.Core.Model.Models.PasswordLib.PLID">
+            <summary>
+            主键
+            </summary>
+        </member>
         <member name="P:Blog.Core.Model.Models.PasswordLib.IsDeleted">
              <summary>
             获取或设置是否禁用，逻辑上的删除，非物理删除
@@ -433,6 +448,11 @@
         <member name="T:Blog.Core.Model.Models.Permission">
             <summary>
             按钮表
+            </summary>
+        </member>
+        <member name="M:Blog.Core.Model.Models.Permission.#ctor">
+            <summary>
+            构造函数
             </summary>
         </member>
         <member name="P:Blog.Core.Model.Models.Permission.IsDeleted">
@@ -505,6 +525,11 @@
             角色表
             </summary>
         </member>
+        <member name="M:Blog.Core.Model.Models.Role.#ctor">
+            <summary>
+            无参构造函数
+            </summary>
+        </member>
         <member name="P:Blog.Core.Model.Models.Role.IsDeleted">
              <summary>
             获取或设置是否禁用，逻辑上的删除，非物理删除
@@ -565,6 +590,11 @@
             按钮跟权限关联表
             </summary>
         </member>
+        <member name="P:Blog.Core.Model.Models.RoleModulePermission.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
         <member name="P:Blog.Core.Model.Models.RoleModulePermission.IsDeleted">
              <summary>
             获取或设置是否禁用，逻辑上的删除，非物理删除
@@ -613,6 +643,16 @@
         <member name="P:Blog.Core.Model.Models.RoleModulePermission.ModifyTime">
             <summary>
             修改时间
+            </summary>
+        </member>
+        <member name="T:Blog.Core.Model.Models.sysUserInfo">
+            <summary>
+            用户账号
+            </summary>
+        </member>
+        <member name="M:Blog.Core.Model.Models.sysUserInfo.#ctor">
+            <summary>
+            无参构造函数
             </summary>
         </member>
         <member name="P:Blog.Core.Model.Models.sysUserInfo.uID">
@@ -666,7 +706,17 @@
              </summary>
         </member>
         <!-- Badly formed XML comment ignored for member "T:Blog.Core.Model.Models.Topic" -->
+        <member name="M:Blog.Core.Model.Models.Topic.#ctor">
+            <summary>
+            无参构造函数
+            </summary>
+        </member>
         <!-- Badly formed XML comment ignored for member "T:Blog.Core.Model.Models.TopicDetail" -->
+        <member name="M:Blog.Core.Model.Models.TopicDetail.#ctor">
+            <summary>
+            无参构造函数
+            </summary>
+        </member>
         <member name="T:Blog.Core.Model.Models.UserInfo">
             <summary>
             用户信息表
@@ -695,6 +745,11 @@
         <member name="T:Blog.Core.Model.Models.UserRole">
             <summary>
             用户跟角色关联表
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.Models.UserRole.Id">
+            <summary>
+            主键
             </summary>
         </member>
         <member name="P:Blog.Core.Model.Models.UserRole.IsDeleted">
@@ -970,48 +1025,98 @@
             </summary>
         </member>
         <member name="P:Blog.Core.Model.VeiwModels.GuestbookViewModels.id">
-            <summary>留言表
-            
+            <summary>
+            留言表
             </summary>
         </member>
         <member name="P:Blog.Core.Model.VeiwModels.GuestbookViewModels.blogId">
-            <summary>博客ID
-            
+            <summary>
+            博客ID
             </summary>
         </member>
         <member name="P:Blog.Core.Model.VeiwModels.GuestbookViewModels.createdate">
-            <summary>创建时间
-            
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.VeiwModels.GuestbookViewModels.username">
+            <summary>
+            用户名
             </summary>
         </member>
         <member name="P:Blog.Core.Model.VeiwModels.GuestbookViewModels.phone">
-            <summary>手机
-            
+            <summary>
+            手机
             </summary>
         </member>
         <member name="P:Blog.Core.Model.VeiwModels.GuestbookViewModels.QQ">
-            <summary>qq
-            
+            <summary>
+            qq
             </summary>
         </member>
         <member name="P:Blog.Core.Model.VeiwModels.GuestbookViewModels.body">
-            <summary>留言内容
-            
+            <summary>
+            留言内容
             </summary>
         </member>
         <member name="P:Blog.Core.Model.VeiwModels.GuestbookViewModels.ip">
-            <summary>ip地址
-            
+            <summary>
+            ip地址
             </summary>
         </member>
         <member name="P:Blog.Core.Model.VeiwModels.GuestbookViewModels.isshow">
-            <summary>是否显示在前台,0否1是
+            <summary>
+            是否显示在前台,0否1是
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.VeiwModels.GuestbookViewModels.blogarticle">
+            <summary>
+            博客
+            </summary>
+        </member>
+        <member name="T:Blog.Core.Model.VeiwModels.LoginInfoViewModels">
+            <summary>
+            登陆信息模型
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.VeiwModels.LoginInfoViewModels.uLoginName">
+            <summary>
+            登陆用户名
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.VeiwModels.LoginInfoViewModels.uLoginPwd">
+            <summary>
+            登陆密码
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.VeiwModels.LoginInfoViewModels.VCode">
+            <summary>
+            代码
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.VeiwModels.LoginInfoViewModels.IsMember">
+            <summary>
+            是否记录
+            </summary>
+        </member>
+        <member name="T:Blog.Core.Model.VeiwModels.ModuleViewModels">
+            <summary>
             
             </summary>
         </member>
         <member name="T:Blog.Core.Model.VeiwModels.SidebarMenuViewModel">
             <summary>
             菜单展示model
+            </summary>
+        </member>
+        <member name="M:Blog.Core.Model.VeiwModels.SidebarMenuViewModel.#ctor">
+            <summary>
+            无参构造函数
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.VeiwModels.SidebarMenuViewModel.Id">
+            <summary>
+            主键
             </summary>
         </member>
         <member name="T:Blog.Core.Model.VeiwModels.TopgbViewModels">

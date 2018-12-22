@@ -11,6 +11,9 @@ namespace Blog.Core.Model.Models
     /// </summary>
     public class UserRole
     {
+        /// <summary>
+        /// 主键
+        /// </summary>
         public int Id { get; set; }
 
         /// <summary>

@@ -2,6 +2,9 @@
 
 namespace Blog.Core.Model.Models
 {
+    /// <summary>
+    /// 博客留言
+    /// </summary>
     public class Guestbook
     {
  

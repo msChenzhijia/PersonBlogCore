@@ -11,11 +11,17 @@ namespace Blog.Core.Model.VeiwModels
     /// </summary>
     public class SidebarMenuViewModel
     {
+        /// <summary>
+        /// 无参构造函数
+        /// </summary>
         public SidebarMenuViewModel()
         {
             this.ChildMenuList = new List<SidebarMenuViewModel>();
         }
 
+        /// <summary>
+        /// 主键
+        /// </summary>
         public int Id { get; set; }
         public int? ParentId { get; set; }
         public string Name { get; set; }

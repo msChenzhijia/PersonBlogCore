@@ -11,6 +11,9 @@ namespace Blog.Core.Model.Models
     /// </summary>
     public class PasswordLib
     {
+        /// <summary>
+        /// 主键
+        /// </summary>
         public int PLID { get; set; }
 
         /// <summary>

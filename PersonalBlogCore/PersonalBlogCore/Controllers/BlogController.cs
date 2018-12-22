@@ -77,13 +77,13 @@ namespace PersonalBlogCore.Controllers
         {
         }
         /// <summary>
-        /// 
+        /// 删除
         /// </summary>
-        /// <param name="id"></param>
-        // DELETE: api/ApiWithActions/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
+        /// <param name="id"></param>     
+        [HttpPost("id")]        
+        public async Task<Boolean> Delete(Int32 id)
         {
+             return await blogArticleServices.DeleteById(id);
         }
         /// <summary>
         /// 获取博客列表
@@ -108,30 +108,43 @@ namespace PersonalBlogCore.Controllers
 
 
         }
+        /// <summary>
+        /// 新增
+        /// </summary>
+        /// <param name="bsubmitter">提交人</param>
+        /// <param name="btitle">博客标题</param>
+        /// <param name="bcategory">博客类型</param>
+        /// <param name="bcontent">内容</param>
+        /// <param name="bRemark">备注</param>
+        /// <returns>返回true或false</returns>
         [HttpGet]
         [Route("Inserts")]
-        public  async Task<bool> Inserts(String advertisement)
+        public  async Task<bool> Inserts(String bsubmitter,String btitle,String bcategory,String bcontent,String bRemark)
         {
-            BlogArticle blogArticle = new BlogArticle();
-            //blogArticle.bcategory = bcategory;
-            //blogArticle.bsubmitter = bsubmitter;
-            //blogArticle.btitle = btitle;
-            //blogArticle.bcontent = bcontent;
-            //blogArticle.bcommentNum = 0;
-            //blogArticle.bCreateTime = DateTime.Now;
-            //blogArticle.bRemark = bRemark;
-            //blogArticle.btraffic = 0;
-            //blogArticle.bsubmitter = "陈志佳";
-            int num=await blogArticleServices.Add(blogArticle);
-            if (num>0)
-            {
-                return  true;
-            }
-            else
-            {
-                return false;
-            }
+            BlogArticle blogArticle = new BlogArticle()
+            {   bsubmitter = bsubmitter,
+                btitle = btitle,
+                bcategory = bcategory,
+                bcontent = bcontent,
+                bRemark = bRemark,
+                btraffic = 0,
+                bcommentNum = 0,
+                bUpdateTime = DateTime.Now,
+                bCreateTime = DateTime.Now };
+                bool result= await blogArticleServices.Add(blogArticle)>0?true:false;
+            return result;
         }
-        
+        /// <summary>
+        /// 获取博客内容
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet]
+        [Route("GetBlogArticle")]
+        public async Task<List<BlogArticle>> GetBlogArticle()
+        {
+            return await blogArticleServices.getBlogs();
+        }
+
+
     }
 }

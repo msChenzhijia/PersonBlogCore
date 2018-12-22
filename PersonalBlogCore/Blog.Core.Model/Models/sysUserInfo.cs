@@ -6,8 +6,14 @@ using System.Threading.Tasks;
 
 namespace Blog.Core.Model.Models
 {
+    /// <summary>
+    /// 用户账号
+    /// </summary>
      public class sysUserInfo
     {
+        /// <summary>
+        /// 无参构造函数
+        /// </summary>
         public sysUserInfo()
         {
             this.UserRole = new List<UserRole>();

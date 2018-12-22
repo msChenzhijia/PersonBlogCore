@@ -183,13 +183,30 @@
         </member>
         <member name="M:PersonalBlogCore.Controllers.BlogController.Delete(System.Int32)">
             <summary>
-            
+            删除
             </summary>
-            <param name="id"></param>
+            <param name="id"></param>     
         </member>
         <member name="M:PersonalBlogCore.Controllers.BlogController.GetBlogs">
             <summary>
             获取博客列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PersonalBlogCore.Controllers.BlogController.Inserts(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            新增
+            </summary>
+            <param name="bsubmitter">提交人</param>
+            <param name="btitle">博客标题</param>
+            <param name="bcategory">博客类型</param>
+            <param name="bcontent">内容</param>
+            <param name="bRemark">备注</param>
+            <returns>返回true或false</returns>
+        </member>
+        <member name="M:PersonalBlogCore.Controllers.BlogController.GetBlogArticle">
+            <summary>
+            获取博客内容
             </summary>
             <returns></returns>
         </member>
@@ -227,6 +244,45 @@
             </summary>
             <param name="name">用户名</param>
             <param name="pass">密码</param>
+            <returns></returns>
+        </member>
+        <member name="T:PersonalBlogCore.JsonSerialize.IJsonHelper.IJsonHelper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PersonalBlogCore.JsonSerialize.IJsonHelper.IJsonHelper.JsonSerializeObject(System.Object)">
+            <summary>
+            序列化Json
+            </summary>
+            <param name="obj">任何类型的参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:PersonalBlogCore.JsonSerialize.IJsonHelper.IJsonHelper.JsonDeSerializeObject``1(System.String)">
+            <summary>
+            反序列化
+            </summary>
+            <typeparam name="T">类型</typeparam>
+            <param name="param">字符串</param>
+            <returns></returns>
+        </member>
+        <member name="T:PersonalBlogCore.JsonSerialize.JsonHelper">
+            <summary>
+            Json帮助类
+            </summary>
+        </member>
+        <member name="M:PersonalBlogCore.JsonSerialize.JsonHelper.JsonSerializeObject(System.Object)">
+            <summary>
+            序列化Json
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PersonalBlogCore.JsonSerialize.JsonHelper.JsonDeSerializeObject``1(System.String)">
+            <summary>
+            反序列化
+            </summary>
+            <param name="param"></param>
             <returns></returns>
         </member>
         <member name="T:PersonalBlogCore.Program">

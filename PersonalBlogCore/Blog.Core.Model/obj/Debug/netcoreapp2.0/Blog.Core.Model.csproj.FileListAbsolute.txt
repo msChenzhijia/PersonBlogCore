@@ -27,3 +27,13 @@ F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Model\obj\Debug\n
 F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Model\obj\Debug\netcoreapp2.0\Blog.Core.Model.AssemblyInfo.cs
 F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Model\obj\Debug\netcoreapp2.0\Blog.Core.Model.dll
 F:\C#\Asp.Net Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Model\obj\Debug\netcoreapp2.0\Blog.Core.Model.pdb
+E:\DotNet\ASP.NET Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Model\bin\Debug\netcoreapp2.0\Blog.Core.Model.xml
+E:\DotNet\ASP.NET Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Model\bin\Debug\netcoreapp2.0\Blog.Core.Model.deps.json
+E:\DotNet\ASP.NET Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Model\bin\Debug\netcoreapp2.0\Blog.Core.Model.dll
+E:\DotNet\ASP.NET Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Model\bin\Debug\netcoreapp2.0\Blog.Core.Model.pdb
+E:\DotNet\ASP.NET Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Model\obj\Debug\netcoreapp2.0\Blog.Core.Model.csprojAssemblyReference.cache
+E:\DotNet\ASP.NET Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Model\obj\Debug\netcoreapp2.0\Blog.Core.Model.csproj.CoreCompileInputs.cache
+E:\DotNet\ASP.NET Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Model\obj\Debug\netcoreapp2.0\Blog.Core.Model.AssemblyInfoInputs.cache
+E:\DotNet\ASP.NET Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Model\obj\Debug\netcoreapp2.0\Blog.Core.Model.AssemblyInfo.cs
+E:\DotNet\ASP.NET Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Model\obj\Debug\netcoreapp2.0\Blog.Core.Model.dll
+E:\DotNet\ASP.NET Core\PersonalBlogCore\PersonalBlogCore\Blog.Core.Model\obj\Debug\netcoreapp2.0\Blog.Core.Model.pdb

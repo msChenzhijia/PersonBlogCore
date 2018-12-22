@@ -11,6 +11,9 @@ namespace Blog.Core.Model.Models
     /// </summary>
     public class OperateLog
     {
+        /// <summary>
+        /// 日志记录ID
+        /// </summary>
         public int Id { get; set; }
 
         /// <summary>

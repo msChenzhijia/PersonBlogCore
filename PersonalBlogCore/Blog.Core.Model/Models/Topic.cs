@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 
 namespace Blog.Core.Model.Models
 {
-    /// <summary>博客文章
-    /// 
+    /// <summary>
+    /// 博客文章
     /// </summary
     public class Topic
     {
+        /// <summary>
+        /// 无参构造函数
+        /// </summary>
         public Topic()
         {
             this.TopicDetail = new List<TopicDetail>();
